@@ -1,0 +1,723 @@
+2023-10-09T16:01:55.889Z In(05) mks Log for VMware Workstation pid=18900 version=17.0.0 build=build-20800274 option=Release
+2023-10-09T16:01:55.889Z In(05) mks The host is x86_64.
+2023-10-09T16:01:55.889Z In(05) mks Host codepage=windows-1252 encoding=windows-1252
+2023-10-09T16:01:55.889Z In(05) mks Host is Windows 11 Enterprise, 64-bit (Build 22621.2283)
+2023-10-09T16:01:55.889Z In(05) mks Host offset from UTC is -07:00.
+2023-10-09T16:01:55.906Z In(05) main  VTHREAD 17932 "main"
+2023-10-09T16:01:55.906Z In(05) main  MKSRoleMain: Initializing MKSSandbox...
+2023-10-09T16:01:55.906Z In(05) main  MKSRoleMain: Initializing FeatureState...
+2023-10-09T16:01:55.906Z In(05) main  MKSRoleMain: Initializing Locale...
+2023-10-09T16:01:55.906Z In(05) main  LOCALE windows-1252 -> NULL User=409 System=409
+2023-10-09T16:01:55.906Z In(05) main  Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-09T16:01:55.906Z In(05) main  MKSRoleMain: Initializing Preference...
+2023-10-09T16:01:55.908Z In(05) main  DictionaryLoad: Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:55.908Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:55.908Z In(05) main  PREF Optional preferences file not found at C:\Users\lephu\AppData\Roaming\VMware\config.ini. Using default values.
+2023-10-09T16:01:55.909Z In(05) main  MKSRoleMain: Initializing Poll...
+2023-10-09T16:01:55.909Z In(05) main  POLL Using the WSAPoll API Implementation for PollDefault
+2023-10-09T16:01:55.909Z In(05) main  MKSRoleMain: Initializing Log...
+2023-10-09T16:01:55.909Z In(05) main  MKSRoleMain: Found Config Settings:
+2023-10-09T16:01:55.909Z In(05) main  DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2023-10-09T16:01:55.909Z In(05) main  DICT          printers.enabled = "FALSE"
+2023-10-09T16:01:55.909Z In(05) main  DICT --- NON PERSISTENT (null)
+2023-10-09T16:01:55.909Z In(05) main  DICT --- USER PREFERENCES C:\Users\lephu\AppData\Roaming\VMware\preferences.ini
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window.count = "1"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.tab.count = "2"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.sidebar = "FALSE"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.sidebar.width = "200"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.statusBar = "TRUE"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.tabs = "TRUE"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.placement.left = "49"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.placement.top = "106"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.placement.right = "1971"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.placement.bottom = "1206"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.maximized = "TRUE"
+2023-10-09T16:01:55.909Z In(05) main  DICT         vmWizard.guestKey = "dos"
+2023-10-09T16:01:55.909Z In(05) main  DICT             vmWizard.mode = "custom"
+2023-10-09T16:01:55.909Z In(05) main  DICT vmWizard.installMediaType = "later"
+2023-10-09T16:01:55.909Z In(05) main  DICT vmWizard.isoLocationMRU.count = "2"
+2023-10-09T16:01:55.909Z In(05) main  DICT vmWizard.isoLocationMRU0.location = "D:\Download\Disk image\ubuntu-22.04.2-desktop-amd64.iso"
+2023-10-09T16:01:55.909Z In(05) main  DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2023-10-09T16:01:55.910Z In(05) main  DICT             hints.hideAll = "FALSE"
+2023-10-09T16:01:55.910Z In(05) main  DICT hint.loader.mitigations.wsAndFusion = "FALSE"
+2023-10-09T16:01:55.910Z In(05) main  DICT  hint.vmui.showNewUSBDevs = "FALSE"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2023-10-09T16:01:55.910Z In(05) main  DICT  pref.fullscreen.autohide = "TRUE"
+2023-10-09T16:01:55.910Z In(05) main  DICT vmWizard.isoLocationMRU1.location = "D:\Download\Disk image\Windows.iso"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab0.dest = ""
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab0.file = "D:\Download\VM-Machine\Ubuntu2204\Ubuntu 2204.vmx"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab0.type = "vm"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab1.dest = ""
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab1.file = "D:\Download\VM-Machine\Windows10\Windows 10 x64.vmx"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab1.type = "vm"
+2023-10-09T16:01:55.910Z In(05) main  DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2023-10-09T16:01:55.910Z In(05) main  DICT --- USER DEFAULTS C:\Users\lephu\AppData\Roaming\VMware\config.ini
+2023-10-09T16:01:55.910Z In(05) main  DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-09T16:01:55.910Z In(05) main  DICT         authd.client.port = "902"
+2023-10-09T16:01:55.910Z In(05) main  DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:55.910Z In(05) main  DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-09T16:01:55.910Z In(05) main  DICT         authd.client.port = "902"
+2023-10-09T16:01:55.910Z In(05) main  DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:55.910Z In(05) main  DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:55.910Z In(05) main  LOCALE windows-1252 -> NULL User=409 System=409
+2023-10-09T16:01:55.910Z In(05) main  Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-09T16:01:55.910Z In(05) main  MKSRoleMain: Initializing Sig
+2023-10-09T16:01:55.910Z In(05) main  MKSRoleMain: Initializing MKS
+2023-10-09T16:01:55.913Z In(05) main  MKSRoleMain: Powering on.
+2023-10-09T16:01:55.913Z In(05) main  MKSSandbox: Powering on MKSSandboxComm
+2023-10-09T16:01:55.913Z In(05) main  MKSSandbox: MKS_UUID=52 a9 77 48 ff fa 7f cf-9f f4 d0 3e d4 fe 78 44
+2023-10-09T16:01:55.913Z In(05) main  MKSRoleMain: Powering on MKS
+2023-10-09T16:01:55.913Z In(05) main  MKS PowerOn
+2023-10-09T16:01:55.913Z In(05) mks  VTHREAD 936 "mks"
+2023-10-09T16:01:55.913Z In(05) mks  MKS thread is alive
+2023-10-09T16:01:55.913Z In(05) svga  VTHREAD 25224 "svga"
+2023-10-09T16:01:55.913Z In(05) svga  SVGA thread is alive
+2023-10-09T16:01:55.913Z In(05) mks  MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2023-10-09T16:01:55.917Z In(05) mks  MKS Win32: Registering top level window (0xb0766) to receive session change notification.
+2023-10-09T16:01:55.918Z In(05) mks  MKS Win32: Successfully enabled high resolution system timer.
+2023-10-09T16:01:55.918Z In(05) mks  Current Display Settings:
+2023-10-09T16:01:55.918Z In(05) mks     Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2023-10-09T16:01:55.918Z In(05) mks  MKS Win32: MIL: 0x2000
+2023-10-09T16:01:55.918Z In(05) mks  MKS-RenderMain: PowerOn allowed DX12Renderer 
+2023-10-09T16:01:55.918Z In(05) mks  MKS-RenderMain: ISB not enabled by config
+2023-10-09T16:01:55.918Z In(05) mks  MKS-RenderMain: Collecting RenderOps caps from DX12Renderer
+2023-10-09T16:01:55.918Z In(05) mks  MKS-RenderMain: Starting DX12Renderer
+2023-10-09T16:01:55.921Z Wa(03) mks  DX12Module: Available adapters:
+2023-10-09T16:01:55.921Z Wa(03) mks  DX12Module:  NVIDIA GeForce RTX 2070
+2023-10-09T16:01:55.921Z Wa(03) mks  DX12Module:    VendorId = 4318, DeviceId = 7943, SubSysId = 926028898, Revision = 161, AdapterLuid = 061634, Flags = 2c
+2023-10-09T16:01:55.921Z Wa(03) mks  DX12Module:    DedicatedVideoMemory = 4113563648, DedicatedSystemMemory = 0, SharedSystemMemory = 4220946432
+2023-10-09T16:01:56.464Z Wa(03) mks  DX12Module:  Microsoft Basic Render Driver
+2023-10-09T16:01:56.464Z Wa(03) mks  DX12Module:    VendorId = 5140, DeviceId = 140, SubSysId = 0, Revision = 0, AdapterLuid = 066890, Flags = 2e
+2023-10-09T16:01:56.464Z Wa(03) mks  DX12Module:    DedicatedVideoMemory = 0, DedicatedSystemMemory = 0, SharedSystemMemory = 4220946432
+2023-10-09T16:01:56.997Z Wa(03) mks  DX12Module: Selected adapter:
+2023-10-09T16:01:56.997Z Wa(03) mks  DX12Module:  NVIDIA GeForce RTX 2070
+2023-10-09T16:01:56.997Z Wa(03) mks  DX12Module:    VendorId = 4318, DeviceId = 7943, SubSysId = 926028898, Revision = 161, AdapterLuid = 061634, Flags = 2c
+2023-10-09T16:01:56.997Z Wa(03) mks  DX12Module:    DedicatedVideoMemory = 4113563648, DedicatedSystemMemory = 0, SharedSystemMemory = 4220946432
+2023-10-09T16:01:56.997Z In(05) mks  DX12Module:  GPU chip: Turing (Turing)
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module: D3D12_FEATURE_D3D12_OPTIONS:
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   DoublePrecisionFloatShaderOps = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   OutputMergerLogicOp = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   MinPrecisionSupport = D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   TiledResourcesTier = D3D12_TILED_RESOURCES_TIER_3
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   ResourceBindingTier = D3D12_RESOURCE_BINDING_TIER_3
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   PSSpecifiedStencilRefSupported = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   TypedUAVLoadAdditionalFormats = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   ROVsSupported = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   ConservativeRasterizationTier = D3D12_CONSERVATIVE_RASTERIZATION_TIER_3
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   MaxGPUVirtualAddressBitsPerResource = 40
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   StandardSwizzle64KBSupported = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   CrossNodeSharingTier = D3D12_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   CrossAdapterRowMajorTextureSupported = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   ResourceHeapTier = D3D12_RESOURCE_HEAP_TIER_2
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module: D3D12_FEATURE_DATA_ARCHITECTURE1:
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   NodeIndex = 0
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   TileBasedRenderer = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   UMA = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   CacheCoherentUMA = false
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   IsolatedMMU = true
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT:
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   MaxGPUVirtualAddressBitsPerResource = 40
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   MaxGPUVirtualAddressBitsPerProcess = 40
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module: max support shader model = D3D_SHADER_MODEL_6_4
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module: D3D12_FEATURE_DATA_EXISTING_HEAPS:
+2023-10-09T16:01:57.069Z Wa(03) mks  DX12Module:   Supported = true
+2023-10-09T16:01:57.069Z In(05) mksDX12Aux  VTHREAD 25136 "mksDX12Aux"
+2023-10-09T16:01:57.104Z In(05) mks  +----------------------------------------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+2023-10-09T16:01:57.104Z In(05) mks  | FORMAT NAME \ SUPPORT                  |BUF|IAV|IAI|SOB|1D |2D |3D |CUB|LD |SMP|SMC|SMT|MIP|RT |BLN|DS |MSR|DIS|CST|MST|MSL|GAT|BBC|UAV|GC |DO |VPO|VPI|VEN|UAA|UAB|UAC|UAE|UAS|UAU|UTL|UTS|OML|TIL|MO | 2x| 4x| 8x|16x|32x|
+2023-10-09T16:01:57.104Z In(05) mks  +----------------------------------------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32A32_TYPELESS      |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32A32_FLOAT         | X | X |   | X | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32A32_UINT          | X | X |   | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32A32_SINT          | X | X |   | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32_TYPELESS         |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32_FLOAT            | X | X |   | X | X | X | X | X | X |   |   |   | X |   |   |   | X |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32_UINT             | X | X |   | X | X | X | X | X | X |   |   |   | X |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32B32_SINT             | X | X |   | X | X | X | X | X | X |   |   |   | X |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_TYPELESS      |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_FLOAT         | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X |   | X |   |   | X |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_UNORM         | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_UINT          | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_SNORM         | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R16G16B16A16_SINT          | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32_TYPELESS            |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32_FLOAT               | X | X |   | X | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32_UINT                | X | X |   | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.104Z In(05) mks  | DXGI_FORMAT_R32G32_SINT                | X | X |   | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32G8X24_TYPELESS          |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_D32_FLOAT_S8X24_UINT       |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS   |   |   |   |   | X | X |   | X | X | X | X |   | X |   |   |   |   |   | X |   | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_X32_TYPELESS_G8X24_UINT    |   |   |   |   | X | X |   | X | X |   |   |   | X |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R10G10B10A2_TYPELESS       |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R10G10B10A2_UNORM          | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X | X | X |   |   | X | X |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R10G10B10A2_UINT           | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R11G11B10_FLOAT            | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   |   | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_TYPELESS          |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_UNORM             | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X | X | X |   |   | X | X |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_UNORM_SRGB        |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X | X |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_UINT              | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_SNORM             | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8B8A8_SINT              | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_TYPELESS            |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_FLOAT               | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_UNORM               | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_UINT                | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_SNORM               | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16G16_SINT                | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32_TYPELESS               |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_D32_FLOAT                  |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32_FLOAT                  | X | X |   | X | X | X | X | X | X | X | X |   | X | X | X |   | X |   | X | X | X | X |   | X | X |   |   |   |   |   |   |   | X |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32_UINT                   | X | X | X | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   | X | X | X | X | X | X | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R32_SINT                   | X | X |   | X | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   | X | X | X | X | X | X | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R24G8_TYPELESS             |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_D24_UNORM_S8_UINT          |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R24_UNORM_X8_TYPELESS      |   |   |   |   | X | X |   | X | X | X | X |   | X |   |   |   |   |   | X |   | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_X24_TYPELESS_G8_UINT       |   |   |   |   | X | X |   | X | X |   |   |   | X |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_TYPELESS              |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_UNORM                 | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_UINT                  | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_SNORM                 | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_SINT                  | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_TYPELESS               |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_FLOAT                  | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_D16_UNORM                  |   |   |   |   | X | X |   | X |   |   |   |   | X |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_UNORM                  | X | X |   |   | X | X | X | X | X | X | X |   | X | X | X |   | X |   | X | X | X | X |   | X | X |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_UINT                   | X | X | X |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_SNORM                  | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R16_SINT                   | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8_TYPELESS                |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8_UNORM                   | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8_UINT                    | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X | X | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8_SNORM                   | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8_SINT                    | X | X |   |   | X | X | X | X | X |   |   |   | X | X |   |   |   |   | X | X | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_A8_UNORM                   |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   |   | X | X | X |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R1_UNORM                   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R9G9B9E5_SHAREDEXP         |   |   |   |   | X | X | X | X | X | X |   |   | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R8G8_B8G8_UNORM            |   |   |   |   | X | X | X | X | X | X |   |   | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_G8R8_G8B8_UNORM            |   |   |   |   | X | X | X | X | X | X |   |   | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC1_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC1_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC1_UNORM_SRGB             |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC2_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC2_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC2_UNORM_SRGB             |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC3_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC3_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC3_UNORM_SRGB             |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC4_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC4_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC4_SNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC5_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC5_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC5_SNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B5G6R5_UNORM               |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   |   | X | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B5G5R5A1_UNORM             |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   |   | X | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8A8_UNORM             | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X | X | X |   |   | X | X |   |   |   |   |   |   |   | X | X |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8X8_UNORM             | X | X |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   |   |   |   | X | X |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X | X |   |   |   | X |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8A8_TYPELESS          |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8A8_UNORM_SRGB        |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X | X | X | X | X | X | X |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8X8_TYPELESS          |   |   |   |   | X | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B8G8R8X8_UNORM_SRGB        |   |   |   |   | X | X | X | X | X | X |   |   | X | X | X |   | X |   | X | X | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   | X | X | X |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC6H_TYPELESS              |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC6H_UF16                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC6H_SF16                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC7_TYPELESS               |   |   |   |   |   | X | X | X |   |   |   |   | X |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC7_UNORM                  |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_BC7_UNORM_SRGB             |   |   |   |   |   | X | X | X | X | X |   |   | X |   |   |   |   |   | X |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_AYUV                       |   |   |   |   |   | X |   |   | X | X |   |   | X | X | X |   |   |   |   |   |   | X |   | X |   |   |   | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_Y410                       |   |   |   |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_Y416                       |   |   |   |   |   | X |   |   | X | X |   |   | X |   |   |   |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_NV12                       |   |   |   |   |   | X |   |   | X | X |   |   |   | X | X |   |   |   |   |   |   | X |   | X |   | X | X | X | X |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_P010                       |   |   |   |   |   | X |   |   | X | X |   |   |   | X | X |   |   |   |   |   |   | X |   | X |   | X | X | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_P016                       |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_420_OPAQUE                 |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X | X | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_YUY2                       |   |   |   |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X |   |   | X | X |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_Y210                       |   |   |   |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_Y216                       |   |   |   |   |   | X |   |   | X | X |   |   |   |   |   |   |   |   |   |   |   | X |   | X |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_NV11                       |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_AI44                       |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_IA44                       |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_P8                         |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_A8P8                       |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  | DXGI_FORMAT_B4G4R4A4_UNORM             |   |   |   |   | X | X | X | X | X | X |   |   | X |   |   |   | X |   |   |   |   | X |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | X |   |   |   |   |   |   |
+2023-10-09T16:01:57.105Z In(05) mks  +----------------------------------------+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+2023-10-09T16:01:57.106Z In(05) mks  Started Shim3D
+2023-10-09T16:01:57.106Z In(05) mks  MKS-RenderMain: Started DX12Renderer
+2023-10-09T16:01:57.106Z In(05) mks  MKS-RenderMain: Found Full Renderer: DX12Renderer
+2023-10-09T16:01:57.106Z In(05) mks  MKS-RenderMain: maxTextureSize=16384
+2023-10-09T16:01:57.106Z In(05) mks  MKSRemoteMgr: Set default display name: mbransom
+2023-10-09T16:01:57.106Z In(05) mks  MKSRemoteMgr: Loading VNC Configuration from VM config file
+2023-10-09T16:01:57.106Z In(05) mks  MKSRemoteMgr: Using default VNC keymap table "us"
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID vendor: GenuineIntel
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID family: 0x6 model: 0xb7 stepping: 0x1
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID codename: Unknown
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID name: 13th Gen Intel(R) Core(TM) i5-13600KF
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000000, 0: 0x00000020 0x756e6547 0x6c65746e 0x49656e69
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000001, 0: 0x000b0671 0x10800800 0xfffaf38b 0xbfcbfbff
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000002, 0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000004, 0: 0xfc004121 0x02c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000004, 1: 0xfc004122 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000004, 2: 0xfc01c143 0x03c0003f 0x000007ff 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000004, 3: 0xfc1fc163 0x02c0003f 0x00007fff 0x00000004
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002020
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00020003
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000007, 0: 0x00000001 0x239c27a9 0x184007a4 0xbc18c410
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000007, 1: 0x00400810 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000a, 0: 0x07300605 0x00000000 0x00000007 0x00008603
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000b, 1: 0x00000007 0x00000014 0x00000201 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000014, 0: 0x00000001 0x0000005f 0x00000007 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000014, 1: 0x02490002 0x003f003f 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000015, 0: 0x00000002 0x000000b6 0x0249f000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001a, 0: 0x40000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001c, 0: 0x4000000b 0x00000007 0x00000007 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001f, 0: 0x00000001 0x00000002 0x00000100 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001f, 1: 0x00000007 0x00000014 0x00000201 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 0000001f, 2: 0x00000000 0x00000000 0x00000002 0x00000010
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 00000020, 0: 0x00000000 0x00000001 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000002, 0: 0x0000585d 0x000a0000 0x00000002 0x000008eb
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000003, 0: 0x0000bfff 0x002bb9ff 0x00000062 0x75fefbf6
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000004, 0: 0x00060e14 0x00000000 0x0000002e 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000005, 0: 0x00000400 0x00000400 0x00000eb0 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000006, 0: 0x018200af 0x00000027 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000007, 0: 0x80000007 0x0000000b 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 4000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000002, 0: 0x68743331 0x6e654720 0x746e4920 0x52286c65
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000003, 0: 0x6f432029 0x54286572 0x6920294d 0x33312d35
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000004, 0: 0x4b303036 0x00000046 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x08007040 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2023-10-09T16:01:57.106Z In(05) main  hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.106Z In(05) main  PStrIntern expansion: nBkts=256
+2023-10-09T16:01:57.106Z In(05) main  VMFeature_GetHostCaps: hostCaps:
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.sse3 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.pclmulqdq = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.mwait = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ssse3 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.fma = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.cmpxchg16b = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.pcid = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.sse41 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.sse42 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.movbe = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.popcnt = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.aes = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsave = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.avx = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.f16c = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.rdrand = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ds = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ss = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.fsgsbase = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.bmi1 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.avx2 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.smep = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.bmi2 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.enfstrg = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.invpcid = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.rdseed = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.adx = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.smap = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.clflushopt = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.clwb = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.sha = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.umip = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.cet_ss = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.gfni = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.vaes = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.vpclmulqdq = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.rdpid = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.movdiri = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.movdir64b = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.fast_short_repmov = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.mdclear = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.serialize = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.arch_lbr = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.cet_ibt = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.stibp = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.fcmd = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ssbd = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.avx_vnni = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.fast_short_stosb = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xcr0_master_sse = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xcr0_master_ymm_h = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xcr0_master_bndregs = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xcr0_master_bndcsr = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsaveopt = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsavec = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xgetbv_ecx1 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsaves = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xss_master_cet_u = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xss_master_cet_s = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsaves_cet_u_sup_by_xss = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.xsaves_cet_s_sup_by_xss = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_deep_cstate_reset = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_cpl_filtering = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_branch_filtering = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_call_stack_mode = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_mispredict = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_timed_lbrs = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_branch_type = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lahf64 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.abm = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.3dnprefetch = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.nx = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.pdpe1gb = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.rdtscp = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lm = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.intel = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ibrs = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.ibpb = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_depth_8 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_depth_16 = 1
+2023-10-09T16:01:57.106Z In(05) main  Capability Found: cpuid.lbr_depth_32 = 1
+2023-10-09T16:01:57.106Z In(05) main  MKSRoleMain: PowerOn finished.
+2023-10-09T16:01:57.107Z In(05) svga  ReplayFifo: mksReplay format version=21
+2023-10-09T16:01:57.107Z In(05) svga  SVGA3dDevCaps: replayFifo host
+2023-10-09T16:01:57.107Z In(05) svga    cap[  0]: 0x00000001 (3D)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  1]: 0x00000008 (MAX_LIGHTS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  2]: 0x00000008 (MAX_TEXTURES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  5]: 0x00000001 (VERTEX_SHADER)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 15]: 0x00000001 (QUERY_TYPES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 62]: 0x00000000 (MISSING62)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 70]: 0x00000000 (DEAD4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 71]: 0x00000000 (DEAD5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 72]: 0x00000000 (DEAD7)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 73]: 0x00000000 (DEAD6)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 76]: 0x00000000 (DEAD10)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 84]: 0x00000000 (DEAD1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 85]: 0x00000000 (DEAD8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 86]: 0x00000000 (DEAD9)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 87]: 0x00000001 (LINE_AA)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 89]:  10.000000 (MAX_LINE_WIDTH)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 90]:  10.000000 (MAX_AA_LINE_WIDTH)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 92]: 0x00000000 (DEAD3)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 94]: 0x00000000 (DEAD2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 95]: 0x00000001 (DXCONTEXT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 96]: 0x00000000 (DEAD11)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 97]: 0x00000010 (DX_MAX_VERTEXBUFFERS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 98]: 0x0000000f (DX_MAX_CONSTANT_BUFFERS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2023-10-09T16:01:57.107Z In(05) svga    cap[100]: 0x000002f7 (DXFMT_X8R8G8B8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[101]: 0x000003f7 (DXFMT_A8R8G8B8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[102]: 0x000002f7 (DXFMT_R5G6B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[103]: 0x000000f7 (DXFMT_X1R5G5B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[104]: 0x000000f7 (DXFMT_A1R5G5B5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[105]: 0x000000f7 (DXFMT_A4R4G4B4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[106]: 0x00000009 (DXFMT_Z_D32)
+2023-10-09T16:01:57.107Z In(05) svga    cap[107]: 0x0000026b (DXFMT_Z_D16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[108]: 0x0000026b (DXFMT_Z_D24S8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[109]: 0x0000000b (DXFMT_Z_D15S1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[110]: 0x000000f7 (DXFMT_LUMINANCE8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[111]: 0x000000e3 (DXFMT_LUMINANCE4_ALPHA4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[112]: 0x000000f7 (DXFMT_LUMINANCE16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[113]: 0x000000e3 (DXFMT_LUMINANCE8_ALPHA8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[114]: 0x00000063 (DXFMT_DXT1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[115]: 0x00000063 (DXFMT_DXT2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[116]: 0x00000063 (DXFMT_DXT3)
+2023-10-09T16:01:57.107Z In(05) svga    cap[117]: 0x00000063 (DXFMT_DXT4)
+2023-10-09T16:01:57.107Z In(05) svga    cap[118]: 0x00000063 (DXFMT_DXT5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[119]: 0x000000e3 (DXFMT_BUMPU8V8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[121]: 0x00000063 (DXFMT_BUMPX8L8V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[123]: 0x000003f7 (DXFMT_ARGB_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[124]: 0x000003f7 (DXFMT_ARGB_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[125]: 0x000003f7 (DXFMT_A2R10G10B10)
+2023-10-09T16:01:57.107Z In(05) svga    cap[126]: 0x000000e3 (DXFMT_V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[127]: 0x00000063 (DXFMT_Q8W8V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[128]: 0x00000063 (DXFMT_CxV8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[129]: 0x000000e3 (DXFMT_X8L8V8U8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[130]: 0x000000e3 (DXFMT_A2W10V10U10)
+2023-10-09T16:01:57.107Z In(05) svga    cap[131]: 0x000000f7 (DXFMT_ALPHA8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[132]: 0x000003f7 (DXFMT_R_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[133]: 0x000003f7 (DXFMT_R_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[134]: 0x000003f7 (DXFMT_RG_S10E5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[135]: 0x000003f7 (DXFMT_RG_S23E8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[136]: 0x00000001 (DXFMT_BUFFER)
+2023-10-09T16:01:57.107Z In(05) svga    cap[137]: 0x0000026b (DXFMT_Z_D24X8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[138]: 0x000001e3 (DXFMT_V16U16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[139]: 0x000003f7 (DXFMT_G16R16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[140]: 0x000001f7 (DXFMT_A16B16G16R16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[141]: 0x00000001 (DXFMT_UYVY)
+2023-10-09T16:01:57.107Z In(05) svga    cap[142]: 0x00000041 (DXFMT_YUY2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[143]: 0x00000041 (DXFMT_NV12)
+2023-10-09T16:01:57.107Z In(05) svga    cap[144]: 0x00000000 (DXFMT_FORMAT_DEAD2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[145]: 0x000002e1 (DXFMT_R32G32B32A32_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[146]: 0x000003e7 (DXFMT_R32G32B32A32_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[147]: 0x000003e7 (DXFMT_R32G32B32A32_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[148]: 0x000000e1 (DXFMT_R32G32B32_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[149]: 0x000001e3 (DXFMT_R32G32B32_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[150]: 0x000001e3 (DXFMT_R32G32B32_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[151]: 0x000001e3 (DXFMT_R32G32B32_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[152]: 0x000002e1 (DXFMT_R16G16B16A16_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[153]: 0x000003e7 (DXFMT_R16G16B16A16_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[154]: 0x000003f7 (DXFMT_R16G16B16A16_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[155]: 0x000003e7 (DXFMT_R16G16B16A16_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[156]: 0x000002e1 (DXFMT_R32G32_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[157]: 0x000003e7 (DXFMT_R32G32_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[158]: 0x000003e7 (DXFMT_R32G32_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[159]: 0x00000261 (DXFMT_R32G8X24_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[160]: 0x00000269 (DXFMT_D32_FLOAT_S8X24_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[161]: 0x00000063 (DXFMT_R32_FLOAT_X8X24)
+2023-10-09T16:01:57.107Z In(05) svga    cap[162]: 0x00000063 (DXFMT_X32_G8X24_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[163]: 0x000002e1 (DXFMT_R10G10B10A2_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[164]: 0x000003e7 (DXFMT_R10G10B10A2_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[165]: 0x000003f7 (DXFMT_R11G11B10_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[166]: 0x000002e1 (DXFMT_R8G8B8A8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[167]: 0x000003f7 (DXFMT_R8G8B8A8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[168]: 0x000002f7 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[169]: 0x000003e7 (DXFMT_R8G8B8A8_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[170]: 0x000003e7 (DXFMT_R8G8B8A8_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[171]: 0x000002e1 (DXFMT_R16G16_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[172]: 0x000003e7 (DXFMT_R16G16_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[173]: 0x000003e7 (DXFMT_R16G16_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[174]: 0x000002e1 (DXFMT_R32_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[175]: 0x00000269 (DXFMT_D32_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[176]: 0x000003e7 (DXFMT_R32_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[177]: 0x000003e7 (DXFMT_R32_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[178]: 0x00000261 (DXFMT_R24G8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[179]: 0x00000269 (DXFMT_D24_UNORM_S8_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[180]: 0x00000063 (DXFMT_R24_UNORM_X8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[181]: 0x00000063 (DXFMT_X24_G8_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[182]: 0x000002e1 (DXFMT_R8G8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[183]: 0x000003f7 (DXFMT_R8G8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[184]: 0x000003e7 (DXFMT_R8G8_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[185]: 0x000003e7 (DXFMT_R8G8_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[186]: 0x000002e1 (DXFMT_R16_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[187]: 0x000003f7 (DXFMT_R16_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[188]: 0x000003e7 (DXFMT_R16_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[189]: 0x000003f7 (DXFMT_R16_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[190]: 0x000003e7 (DXFMT_R16_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[191]: 0x000002e1 (DXFMT_R8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[192]: 0x000003f7 (DXFMT_R8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[193]: 0x000003e7 (DXFMT_R8_UINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[194]: 0x000003f7 (DXFMT_R8_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[195]: 0x000003e7 (DXFMT_R8_SINT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[196]: 0x00000001 (DXFMT_P8)
+2023-10-09T16:01:57.107Z In(05) svga    cap[197]: 0x000000e3 (DXFMT_R9G9B9E5_SHAREDEXP)
+2023-10-09T16:01:57.107Z In(05) svga    cap[198]: 0x000000e3 (DXFMT_R8G8_B8G8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[199]: 0x000000e3 (DXFMT_G8R8_G8B8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[200]: 0x000000e1 (DXFMT_BC1_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[201]: 0x000000e3 (DXFMT_BC1_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[202]: 0x000000e1 (DXFMT_BC2_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[203]: 0x000000e3 (DXFMT_BC2_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[204]: 0x000000e1 (DXFMT_BC3_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[205]: 0x000000e3 (DXFMT_BC3_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[206]: 0x000000e1 (DXFMT_BC4_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[207]: 0x00000063 (DXFMT_ATI1)
+2023-10-09T16:01:57.107Z In(05) svga    cap[208]: 0x000000e3 (DXFMT_BC4_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[209]: 0x000000e1 (DXFMT_BC5_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[210]: 0x00000063 (DXFMT_ATI2)
+2023-10-09T16:01:57.107Z In(05) svga    cap[211]: 0x000000e3 (DXFMT_BC5_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[212]: 0x00000045 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[213]: 0x000002e1 (DXFMT_B8G8R8A8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[214]: 0x000002f7 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[215]: 0x000002e1 (DXFMT_B8G8R8X8_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[216]: 0x000002f7 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[217]: 0x0000006b (DXFMT_Z_DF16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[218]: 0x0000006b (DXFMT_Z_DF24)
+2023-10-09T16:01:57.107Z In(05) svga    cap[219]: 0x0000006b (DXFMT_Z_D24S8_INT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[220]: 0x00000001 (DXFMT_YV12)
+2023-10-09T16:01:57.107Z In(05) svga    cap[221]: 0x000003f7 (DXFMT_R32G32B32A32_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[222]: 0x000003f7 (DXFMT_R16G16B16A16_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[223]: 0x000003f7 (DXFMT_R16G16B16A16_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[224]: 0x000003f7 (DXFMT_R32G32_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[225]: 0x000003f7 (DXFMT_R10G10B10A2_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[226]: 0x000003f7 (DXFMT_R8G8B8A8_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[227]: 0x000003f7 (DXFMT_R16G16_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[228]: 0x000003f7 (DXFMT_R16G16_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[229]: 0x000003f7 (DXFMT_R16G16_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[230]: 0x000003f7 (DXFMT_R32_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[231]: 0x000003f7 (DXFMT_R8G8_SNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[232]: 0x000003f7 (DXFMT_R16_FLOAT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[233]: 0x00000269 (DXFMT_D16_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[234]: 0x000002f7 (DXFMT_A8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[235]: 0x000000e3 (DXFMT_BC1_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[236]: 0x000000e3 (DXFMT_BC2_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[237]: 0x000000e3 (DXFMT_BC3_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[238]: 0x000002f7 (DXFMT_B5G6R5_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[239]: 0x000002f7 (DXFMT_B5G5R5A1_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[240]: 0x000003f7 (DXFMT_B8G8R8A8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[241]: 0x000003f7 (DXFMT_B8G8R8X8_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[242]: 0x000000e3 (DXFMT_BC4_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[243]: 0x000000e3 (DXFMT_BC5_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[244]: 0x00000001 (SM41)
+2023-10-09T16:01:57.107Z In(05) svga    cap[245]: 0x00000001 (MULTISAMPLE_2X)
+2023-10-09T16:01:57.107Z In(05) svga    cap[246]: 0x00000001 (MULTISAMPLE_4X)
+2023-10-09T16:01:57.107Z In(05) svga    cap[247]: 0x00000001 (MS_FULL_QUALITY)
+2023-10-09T16:01:57.107Z In(05) svga    cap[248]: 0x00000001 (LOGICOPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[249]: 0x00000000 (LOGIC_BLENDOPS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[250]: 0x00000000 (DEAD12)
+2023-10-09T16:01:57.107Z In(05) svga    cap[251]: 0x000000e1 (DXFMT_BC6H_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[252]: 0x000000e3 (DXFMT_BC6H_UF16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[253]: 0x000000e3 (DXFMT_BC6H_SF16)
+2023-10-09T16:01:57.107Z In(05) svga    cap[254]: 0x000000e1 (DXFMT_BC7_TYPELESS)
+2023-10-09T16:01:57.107Z In(05) svga    cap[255]: 0x000000e3 (DXFMT_BC7_UNORM)
+2023-10-09T16:01:57.107Z In(05) svga    cap[256]: 0x000000e3 (DXFMT_BC7_UNORM_SRGB)
+2023-10-09T16:01:57.107Z In(05) svga    cap[257]: 0x00000000 (DEAD13)
+2023-10-09T16:01:57.107Z In(05) svga    cap[258]: 0x00000001 (SM5)
+2023-10-09T16:01:57.107Z In(05) svga    cap[259]: 0x00000001 (MULTISAMPLE_8X)
+2023-10-09T16:01:57.107Z In(05) svga    cap[260]: 0x00000010 (MAX_FORCED_SAMPLE_COUNT)
+2023-10-09T16:01:57.107Z In(05) svga    cap[261]: 0x00000001 (GL43)
+2023-10-09T16:01:57.108Z In(05) svga  MKSRoleReplay: MKSRoleReplay_Run: Starting.
+2023-10-09T16:07:26.687Z In(05) svga  MKSSandboxComm: ISBRenderer might be unresponsive, retrying...
+2023-10-09T16:07:54.002Z In(05) mks  MKSThread: Requesting MKS exit
+2023-10-09T16:07:54.002Z In(05) svga  MKSSandboxComm: ISB closed the channel while reading
+2023-10-09T16:07:54.002Z In(05) svga  MKSRoleReplay: MKSRoleReplay_Run: Finished.
+2023-10-09T16:07:54.002Z In(05) main  Stopping MKS/SVGA threads
+2023-10-09T16:07:54.002Z In(05) main  MKS/SVGA threads are stopped
+2023-10-09T16:07:54.002Z In(05) main  MKSRoleMain: Powering off.
+2023-10-09T16:07:54.002Z In(05) main  MKSRoleMain: Powering off MKS
+2023-10-09T16:07:54.003Z In(05) mks  Stopped Shim3D
+2023-10-09T16:07:54.040Z In(05) mks  MKS-RenderMain: Stopped DX12Renderer
+2023-10-09T16:07:54.041Z In(05) mks  MKS PowerOff
+2023-10-09T16:07:54.042Z In(05) svga  SVGA thread is exiting
+2023-10-09T16:07:54.042Z In(05) mks  MKS thread is exiting
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Exiting...
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Exiting MKS
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Exiting Sig
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Skipping SSL (already exited)
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Exiting Poll
+2023-10-09T16:07:54.042Z In(05) main  MKSRoleMain: Exiting Log

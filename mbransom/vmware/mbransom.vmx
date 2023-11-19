@@ -1,0 +1,71 @@
+.encoding = "windows-1252"
+
+config.version = "8"
+
+virtualHW.version = "4"
+
+mks.enable3d = "TRUE"
+
+nvram = "mbransom.nvram"
+
+virtualHW.productCompatibility = "hosted"
+
+powerType.powerOff = "soft"
+
+powerType.powerOn = "soft"
+
+powerType.suspend = "soft"
+
+powerType.reset = "soft"
+
+displayName = "mbransom"
+
+guestOS = "win2000pro"
+
+tools.syncTime = "FALSE"
+
+memsize = "64"
+
+scsi0.present = "TRUE"
+
+scsi0:0.fileName = "hda.vmdk"
+
+scsi0:0.present = "TRUE"
+
+extendedConfigFile = "mbransom.vmxf"
+
+pciBridge0.present = "FALSE"
+
+pciBridge4.present = "FALSE"
+
+pciBridge5.present = "FALSE"
+
+pciBridge6.present = "FALSE"
+
+pciBridge7.present = "FALSE"
+
+vmci0.present = "FALSE"
+
+hpet0.present = "FALSE"
+
+floppy0.present = "FALSE"
+
+numa.autosize.cookie = "10001"
+
+numa.autosize.vcpu.maxPerVirtualNode = "1"
+
+uuid.bios = "56 4d 6b 31 aa b4 9e 5d-ff 8b a0 e2 57 3d 2e 71"
+
+uuid.location = "56 4d 8c bc 5a 79 14 1d-77 94 66 24 e6 06 41 4f"
+
+scsi0:0.redo = ""
+
+vmotion.checkpointFBSize = "134217728"
+
+monitor.phys_bits_used = "36"
+
+cleanShutdown = "TRUE"
+
+softPowerOff = "FALSE"
+
+vmxstats.filename = "mbransom.scoreboard"

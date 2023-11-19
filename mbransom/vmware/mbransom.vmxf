@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 5b b3 c6 a0 7d 1d e6-ef 50 da 9e 64 3f 12 8d</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">mbransom.vmx</vmxPathName></VM></Foundry>

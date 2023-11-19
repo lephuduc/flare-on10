@@ -1,0 +1,1592 @@
+2023-10-09T16:01:53.613Z In(05) vmx Log for VMware Workstation pid=18900 version=17.0.0 build=build-20800274 option=Release
+2023-10-09T16:01:53.613Z In(05) vmx The host is x86_64.
+2023-10-09T16:01:53.613Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2023-10-09T16:01:53.613Z In(05) vmx Host is Windows 11 Enterprise, 64-bit (Build 22621.2283)
+2023-10-09T16:01:53.613Z In(05) vmx Host offset from UTC is -07:00.
+2023-10-09T16:01:53.600Z In(05) vmx VTHREAD 28064 "vmx"
+2023-10-09T16:01:53.606Z In(05) vmx LOCALE windows-1252 -> NULL User=409 System=409
+2023-10-09T16:01:53.606Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-09T16:01:53.608Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:53.608Z In(05) vmx Msg_Reset:
+2023-10-09T16:01:53.608Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:53.608Z In(05) vmx ----------------------------------------
+2023-10-09T16:01:53.608Z In(05) vmx ConfigDB: Failed to load C:\Users\lephu\AppData\Roaming\VMware\config.ini
+2023-10-09T16:01:53.609Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.vmpl", ...) failed, error: 2
+2023-10-09T16:01:53.609Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2023-10-09T16:01:53.609Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:53.609Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\lephu\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-09T16:01:53.609Z In(05) vmx PREF Optional preferences file not found at C:\Users\lephu\AppData\Roaming\VMware\config.ini. Using default values.
+2023-10-09T16:01:53.612Z In(05) vmx lib/ssl: OpenSSL using RAND_OpenSSL for RAND
+2023-10-09T16:01:53.612Z In(05) vmx lib/ssl: protocol list tls1.2
+2023-10-09T16:01:53.612Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2023-10-09T16:01:53.612Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2023-10-09T16:01:53.612Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2023-10-09T16:01:53.614Z In(05) vmx Hostname=JINN-NEWPC
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::83b:d647:4bed:d388%27
+2023-10-09T16:01:53.617Z In(05) vmx IP=2606:4700:110:8263:9114:c500:3f38:3d66
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::6176:474d:2db3:67df%16
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::f1b8:e341:2d8d:8a41%8
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::fb76:e16e:6c9c:df29%14
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::33f:65ee:3bac:427e%41
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::947b:5a26:966c:d676%22
+2023-10-09T16:01:53.617Z In(05) vmx IP=fe80::18b4:c2d3:97e3:631f%15
+2023-10-09T16:01:53.617Z In(05) vmx IP=172.16.0.2
+2023-10-09T16:01:53.617Z In(05) vmx IP=100.66.31.129
+2023-10-09T16:01:53.617Z In(05) vmx IP=192.168.121.117
+2023-10-09T16:01:53.617Z In(05) vmx IP=192.168.173.1
+2023-10-09T16:01:53.617Z In(05) vmx IP=192.168.41.1
+2023-10-09T16:01:53.617Z In(05) vmx IP=172.19.48.1
+2023-10-09T16:01:53.617Z In(05) vmx IP=172.17.160.1
+2023-10-09T16:01:53.617Z In(05) vmx IP=2001:0:2851:fcb0:18b4:c2d3:97e3:631f
+2023-10-09T16:01:53.617Z In(05) vmx IP=fd7a:115c:a1e0:ab12:4843:cd96:6242:1f81
+2023-10-09T16:01:53.646Z In(05) vmx System uptime 487831305425 us
+2023-10-09T16:01:53.646Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=17.0.0;buildnumber=20800274;licensename=VMware Workstation;licenseversion=17.0;" "-@" "pipe=\\.\pipe\vmxaf7b2634b20721db;msgs=ui" "D:\CTF\Flareon10\mbransom\vmware\mbransom.vmx"
+2023-10-09T16:01:53.646Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-09T16:01:53.662Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 864
+2023-10-09T16:01:53.662Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 164
+2023-10-09T16:01:53.663Z In(05) vmx VigorTransport listening on fd 160
+2023-10-09T16:01:53.663Z In(05) vmx Vigor_Init 1
+2023-10-09T16:01:53.663Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmxaf7b2634b20721db' with user '(null)'
+2023-10-09T16:01:53.663Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2023-10-09T16:01:53.693Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2023-10-09T16:01:53.693Z In(05) vmx Vix: [mainDispatch.c:488]: VMAutomation: Initializing VMAutomation.
+2023-10-09T16:01:53.693Z In(05) vmx Vix: [mainDispatch.c:740]: VMAutomationOpenListenerSocket() listening
+2023-10-09T16:01:53.695Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2023-10-09T16:01:53.695Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2023-10-09T16:01:53.695Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-09T16:01:53.695Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2023-10-09T16:01:53.695Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2023-10-09T16:01:53.695Z In(05) vmx IOPL_Init: Hyper-V detected by CPUID
+2023-10-09T16:01:53.697Z In(05) vmx IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2023-10-09T16:01:53.697Z In(05) vmx FeatureCompat: No EVC masks.
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID vendor: GenuineIntel
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID family: 0x6 model: 0xb7 stepping: 0x1
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID codename: Unknown
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID name: 13th Gen Intel(R) Core(TM) i5-13600KF
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000000, 0: 0x00000020 0x756e6547 0x6c65746e 0x49656e69
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000001, 0: 0x000b0671 0x00800800 0xfffaf38b 0xbfcbfbff
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000002, 0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000004, 0: 0xfc004121 0x02c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000004, 1: 0xfc004122 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000004, 2: 0xfc01c143 0x03c0003f 0x000007ff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000004, 3: 0xfc1fc163 0x02c0003f 0x00007fff 0x00000004
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00002020
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00000003
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000007, 0: 0x00000001 0x239c27a9 0x184007a4 0xbc18c410
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000007, 1: 0x00400810 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300605 0x00000000 0x00000007 0x00008603
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000007 0x00000014 0x00000201 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000005f 0x00000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f003f 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x000000b6 0x0249f000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001a, 0: 0x40000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001c, 0: 0x4000000b 0x00000007 0x00000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001f, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001f, 1: 0x00000007 0x00000014 0x00000201 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 0000001f, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 00000020, 0: 0x00000000 0x00000001 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000002, 0: 0x0000585d 0x000a0000 0x00000002 0x000008eb
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000003, 0: 0x0000bfff 0x002bb9ff 0x00000062 0x75fefbf6
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000004, 0: 0x00060e14 0x00000000 0x0000002e 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000005, 0: 0x00000400 0x00000400 0x00000eb0 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000006, 0: 0x018200af 0x00000027 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000007, 0: 0x80000007 0x0000000b 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 4000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000002, 0: 0x68743331 0x6e654720 0x746e4920 0x52286c65
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000003, 0: 0x6f432029 0x54286572 0x6920294d 0x33312d35
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000004, 0: 0x4b303036 0x00000046 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x08007040 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2023-10-09T16:01:53.733Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID differences from hostCPUID.
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[2] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00010003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[3] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00010003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[4] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00020003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[5] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00020003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[6] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00030003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[7] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00030003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[8] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00040003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[9] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00040003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[10] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00050003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[11] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00050003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00060003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[12] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00060003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[13] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00060003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[14] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00060003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[15] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00070003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[16] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00070003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[17] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00070003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[18] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 00000004, 0: 0xfc004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 00000004, 1: 0xfc004122 0x01c0003f 0x0000007f 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 00000004, 2: 0xfc01c143 0x03c0003f 0x00000fff 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 00000006, 0: 0x009f8ff3 0x00000002 0x00000401 0x00070003
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 00000014, 0: 0x00000001 0x0000005f 0x80000007 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx CPUID[19] level 0000001a, 0: 0x20000001 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:53.733Z In(05) vmx Physical APIC IDs: 0-1,8-9,16-17,24-25,32-33,40-41,48,50,52,54,56,58,60,62
+2023-10-09T16:01:53.733Z In(05) vmx Physical X2APIC IDs: 0-1,8-9,16-17,24-25,32-33,40-41,48,50,52,54,56,58,60,62
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR       0x3a =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x480 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x481 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x482 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x483 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x484 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x485 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x486 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x487 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x488 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x489 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48a =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48b =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48c =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48d =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48e =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x48f =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x490 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x491 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x492 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR       0xce =         0x80000000
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x10a =           0x80e16f
+2023-10-09T16:01:53.733Z In(05) vmx Common: MSR      0x122 =                  0
+2023-10-09T16:01:53.733Z In(05) vmx TSC Hz estimates: vmmon 0, remembered 0, osReported 0. Using 3494398991 Hz.
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 3494398991Hz
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: RefClockToPTSC ((x * 2931314333) >> 23) + -1086394008948001
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: tscOffset 0
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: using reference clock
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2023-10-09T16:01:53.733Z In(05) vmx PTSC: current PTSC=87710
+2023-10-09T16:01:53.737Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 960
+2023-10-09T16:01:53.758Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2023-10-09T16:01:53.758Z In(05) vmx changing directory to D:\CTF\Flareon10\mbransom\vmware\.
+2023-10-09T16:01:53.758Z In(05) vmx Config file: D:\CTF\Flareon10\mbransom\vmware\mbransom.vmx
+2023-10-09T16:01:53.758Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-09T16:01:53.758Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2023-10-09T16:01:53.771Z Wa(03) vmx PowerOn
+2023-10-09T16:01:53.771Z In(05) vmx VMX_PowerOn: VMX build 20800274, UI build 20800274
+2023-10-09T16:01:53.771Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x00000000000fffff
+2023-10-09T16:01:53.773Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2023-10-09T16:01:53.773Z No(00) vmx ConfigDB: Setting vmxstats.filename = "mbransom.scoreboard"
+2023-10-09T16:01:53.779Z In(05) vmx VMXSTATS: Successfully created statsfile: mbransom.scoreboard
+2023-10-09T16:01:53.779Z In(05) vmx VMXSTATS: Update Product Information: VMware Workstation	17.0.0	build-20800274	Release  TotalBlockSize: 64
+2023-10-09T16:01:53.779Z In(05) vmx HOST Windows version 10.0, build 22621, platform 2, ""
+2023-10-09T16:01:53.779Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2023-10-09T16:01:53.779Z In(05) vmx DICT          printers.enabled = "FALSE"
+2023-10-09T16:01:53.779Z In(05) vmx DICT --- NON PERSISTENT (null)
+2023-10-09T16:01:53.779Z In(05) vmx DICT --- USER PREFERENCES C:\Users\lephu\AppData\Roaming\VMware\preferences.ini
+2023-10-09T16:01:53.779Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2023-10-09T16:01:53.779Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window.count = "1"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab.count = "2"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.sidebar = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.sidebar.width = "200"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.statusBar = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tabs = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.placement.left = "49"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.placement.top = "106"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.placement.right = "1971"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.placement.bottom = "1206"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.maximized = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT         vmWizard.guestKey = "dos"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             vmWizard.mode = "custom"
+2023-10-09T16:01:53.780Z In(05) vmx DICT vmWizard.installMediaType = "later"
+2023-10-09T16:01:53.780Z In(05) vmx DICT vmWizard.isoLocationMRU.count = "2"
+2023-10-09T16:01:53.780Z In(05) vmx DICT vmWizard.isoLocationMRU0.location = "D:\Download\Disk image\ubuntu-22.04.2-desktop-amd64.iso"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             hints.hideAll = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT hint.loader.mitigations.wsAndFusion = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT  hint.vmui.showNewUSBDevs = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2023-10-09T16:01:53.780Z In(05) vmx DICT  pref.fullscreen.autohide = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT vmWizard.isoLocationMRU1.location = "D:\Download\Disk image\Windows.iso"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab0.dest = ""
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab0.file = "D:\Download\VM-Machine\Ubuntu2204\Ubuntu 2204.vmx"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab0.type = "vm"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab1.dest = ""
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab1.file = "D:\Download\VM-Machine\Windows10\Windows 10 x64.vmx"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab1.type = "vm"
+2023-10-09T16:01:53.780Z In(05) vmx DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- USER DEFAULTS C:\Users\lephu\AppData\Roaming\VMware\config.ini
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-09T16:01:53.780Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-09T16:01:53.780Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- NONPERSISTENT
+2023-10-09T16:01:53.780Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- COMMAND LINE
+2023-10-09T16:01:53.780Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- RECORDING
+2023-10-09T16:01:53.780Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- CONFIGURATION D:\CTF\Flareon10\mbransom\vmware\mbransom.vmx 
+2023-10-09T16:01:53.780Z In(05) vmx DICT            config.version = "8"
+2023-10-09T16:01:53.780Z In(05) vmx DICT         virtualHW.version = "4"
+2023-10-09T16:01:53.780Z In(05) vmx DICT              mks.enable3d = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT                     nvram = "mbransom.nvram"
+2023-10-09T16:01:53.780Z In(05) vmx DICT virtualHW.productCompatibility = "hosted"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        powerType.powerOff = "soft"
+2023-10-09T16:01:53.780Z In(05) vmx DICT         powerType.powerOn = "soft"
+2023-10-09T16:01:53.780Z In(05) vmx DICT         powerType.suspend = "soft"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           powerType.reset = "soft"
+2023-10-09T16:01:53.780Z In(05) vmx DICT               displayName = "mbransom"
+2023-10-09T16:01:53.780Z In(05) vmx DICT                   guestOS = "win2000pro"
+2023-10-09T16:01:53.780Z In(05) vmx DICT            tools.syncTime = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT                   memsize = "64"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             scsi0.present = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT          scsi0:0.fileName = "hda.vmdk"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        extendedConfigFile = "mbransom.vmxf"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        pciBridge0.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        pciBridge4.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        pciBridge5.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        pciBridge6.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT        pciBridge7.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             vmci0.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             hpet0.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           floppy0.present = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT      numa.autosize.cookie = "10001"
+2023-10-09T16:01:53.780Z In(05) vmx DICT numa.autosize.vcpu.maxPerVirtualNode = "1"
+2023-10-09T16:01:53.780Z In(05) vmx DICT                 uuid.bios = "56 4d 6b 31 aa b4 9e 5d-ff 8b a0 e2 57 3d 2e 71"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             uuid.location = "56 4d 6b 31 aa b4 9e 5d-ff 8b a0 e2 57 3d 2e 71"
+2023-10-09T16:01:53.780Z In(05) vmx DICT              scsi0:0.redo = ""
+2023-10-09T16:01:53.780Z In(05) vmx DICT  vmotion.checkpointFBSize = "134217728"
+2023-10-09T16:01:53.780Z In(05) vmx DICT    monitor.phys_bits_used = "36"
+2023-10-09T16:01:53.780Z In(05) vmx DICT             cleanShutdown = "TRUE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT              softPowerOff = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx DICT         vmxstats.filename = "mbransom.scoreboard"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- USER DEFAULTS C:\Users\lephu\AppData\Roaming\VMware\config.ini 
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2023-10-09T16:01:53.780Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2023-10-09T16:01:53.780Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-09T16:01:53.780Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "no"
+2023-10-09T16:01:53.780Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "25165"
+2023-10-09T16:01:53.780Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2023-10-09T16:01:53.780Z In(05) vmx DICT          printers.enabled = "FALSE"
+2023-10-09T16:01:53.780Z In(05) vmx Powering on guestOS 'win2000pro' using the configuration for 'win2000Pro'.
+2023-10-09T16:01:53.780Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-09T16:01:53.780Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-09T16:01:53.780Z In(05) vmx ToolsISO: Updated cached value for imageName to 'winPreVista.iso'.
+2023-10-09T16:01:53.780Z In(05) vmx ToolsISO: Selected Tools ISO 'winPreVista.iso' for 'win2000pro' guest.
+2023-10-09T16:01:53.780Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-09T16:01:53.780Z In(05) vmx DEVSWAP: GuestOS does not require LSI adapter swap.
+2023-10-09T16:01:53.780Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.nvram", ...) failed, error: 2
+2023-10-09T16:01:53.781Z In(05) vmx Monitor Mode: ULM
+2023-10-09T16:01:53.781Z In(05) vmx MsgHint: msg.loader.mitigations.wsAndFusion
+2023-10-09T16:01:53.781Z In(05)+ vmx You are running this virtual machine with side channel mitigations enabled. Side channel mitigations provide enhanced security but also lower performance.
+2023-10-09T16:01:53.781Z In(05)+ vmx 
+2023-10-09T16:01:53.781Z In(05)+ vmx To disable mitigations, change the side channel mitigations setting in the advanced panel of the virtual machine settings. Refer to VMware KB article 79832 at https://kb.vmware.com/s/article/79832 for more details.
+2023-10-09T16:01:53.781Z In(05)+ vmx ---------------------------------------
+2023-10-09T16:01:53.787Z In(05) vmx MemSched_EarlyPowerOn: balloon minGuestSize 13107 (80% of min required size 16384)
+2023-10-09T16:01:53.787Z In(05) vmx OvhdMem_PowerOn: initial admission: paged  1768503 nonpaged    36039 anonymous     4192
+2023-10-09T16:01:53.787Z In(05) vmx VMMEM: Initial Reservation: 7065MB (MainMem=64MB)
+2023-10-09T16:01:53.787Z In(05) vmx llc: maximum vcpus per LLC: 1
+2023-10-09T16:01:53.787Z In(05) vmx llc: vLLC size: 1
+2023-10-09T16:01:53.789Z In(05) vmx MemSched: reserved mem (in MB) min 128 max 57221 recommended 57221
+2023-10-09T16:01:53.789Z In(05) vmx MemSched: pg 1768503 np 36039 anon 4192 mem 16384
+2023-10-09T16:01:53.893Z In(05) vmx MemSched: numvm 1 locked pages: num 0 max 14640384
+2023-10-09T16:01:53.893Z In(05) vmx MemSched: locked Page Limit: host 14751860 config 14648576
+2023-10-09T16:01:53.893Z In(05) vmx MemSched: minmempct 50 minalloc 0 admitted 1
+2023-10-09T16:01:53.893Z In(05) PowerNotifyThread VTHREAD 2804 "PowerNotifyThread"
+2023-10-09T16:01:53.893Z In(05) PowerNotifyThread PowerNotify thread is alive.
+2023-10-09T16:01:53.893Z In(05) vmx VMXSTATS: Registering 1 stats: vmx.logDropChars
+2023-10-09T16:01:53.893Z In(05) vmx VMXSTATS: Registering 2 stats: vmx.logBytesLogged
+2023-10-09T16:01:53.893Z In(05) vmx VMXSTATS: Registering 3 stats: vmx.numTimesLogDrop
+2023-10-09T16:01:53.893Z In(05) vmx LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.17.0.e5.202208' 
+2023-10-09T16:01:53.894Z In(05) vthread-12264 VTHREAD 12264 "vthread-12264"
+2023-10-09T16:01:53.894Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.vmpl", ...) failed, error: 2
+2023-10-09T16:01:53.894Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2023-10-09T16:01:53.894Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.vmpl", ...) failed, error: 2
+2023-10-09T16:01:53.894Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2023-10-09T16:01:53.894Z In(05) vmx Host PA size: 39 bits. Guest PA size: 36 bits.
+2023-10-09T16:01:53.895Z In(05) vmx ToolsISO: Refreshing imageName for 'win2000pro' (refreshCount=1, lastCount=1).
+2023-10-09T16:01:53.895Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-09T16:01:53.895Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-09T16:01:53.895Z In(05) vmx ToolsISO: Updated cached value for imageName to 'winPreVista.iso'.
+2023-10-09T16:01:53.895Z In(05) vmx ToolsISO: Selected Tools ISO 'winPreVista.iso' for 'win2000pro' guest.
+2023-10-09T16:01:53.895Z In(05) deviceThread VTHREAD 22576 "deviceThread"
+2023-10-09T16:01:53.895Z In(05) deviceThread Device thread is alive
+2023-10-09T16:01:53.896Z In(05) vmx KHZEstimate 3494399
+2023-10-09T16:01:53.896Z In(05) vmx MHZEstimate 3494
+2023-10-09T16:01:53.896Z In(05) vmx NumVCPUs 1
+2023-10-09T16:01:53.896Z In(05) vmx Msg_Question:
+2023-10-09T16:01:53.896Z In(05) vmx [msg.uuid.altered] This virtual machine might have been moved or copied.
+2023-10-09T16:01:53.896Z In(05)+ vmx In order to configure certain management and networking features, VMware Workstation needs to know if this virtual machine was moved or copied. 
+2023-10-09T16:01:53.896Z In(05)+ vmx 
+2023-10-09T16:01:53.896Z In(05)+ vmx If you don't know, answer "I Co_pied It".
+2023-10-09T16:01:53.896Z In(05)+ vmx 
+2023-10-09T16:01:53.896Z In(05) vmx ----------------------------------------
+2023-10-09T16:01:55.872Z In(05) vmx MsgQuestion: msg.uuid.altered reply=1
+2023-10-09T16:01:55.872Z In(05) vmx UUID: Writing uuid.location value: '56 4d 8c bc 5a 79 14 1d-77 94 66 24 e6 06 41 4f'
+2023-10-09T16:01:55.872Z No(00) vmx ConfigDB: Setting uuid.location = "56 4d 8c bc 5a 79 14 1d-77 94 66 24 e6 06 41 4f"
+2023-10-09T16:01:55.879Z In(05) vmx AIOGNRC: numThreads=17 ide=0, scsi=1, passthru=0
+2023-10-09T16:01:55.879Z In(05) vmx WORKER: Creating new group with maxThreads=17 (17)
+2023-10-09T16:01:55.879Z In(05) vmx WORKER: Creating new group with maxThreads=1 (18)
+2023-10-09T16:01:55.879Z In(05) vmx MainMem: CPT Host WZ=0 PF=64 D=0
+2023-10-09T16:01:55.879Z In(05) vmx MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2023-10-09T16:01:55.879Z In(05) vmx MainMem: Opened paging file, 'D:\CTF\Flareon10\mbransom\vmware\564d8cbc-5a79-141d-7794-6624e606414f.vmem'.
+2023-10-09T16:01:55.880Z In(05) vmx MStat: Creating Stat vm.uptime
+2023-10-09T16:01:55.880Z In(05) vmx MStat: Creating Stat vm.suspendTime
+2023-10-09T16:01:55.880Z In(05) vmx MStat: Creating Stat vm.powerOnTimeStamp
+2023-10-09T16:01:55.880Z In(05) aioCompletion VTHREAD 28648 "aioCompletion"
+2023-10-09T16:01:55.880Z In(05) vmx VMXAIOMGR: Using: simple=Compl
+2023-10-09T16:01:55.881Z In(05) vmx WORKER: Creating new group with maxThreads=1 (19)
+2023-10-09T16:01:55.882Z In(05) vmx WORKER: Creating new group with maxThreads=14 (33)
+2023-10-09T16:01:55.882Z In(05) vmx FeatureCompat: No VM masks.
+2023-10-09T16:01:55.882Z In(05) vmx TimeTracker host to guest rate conversion 7508664262 @ 3494398991Hz -> 0 @ 3494398991Hz
+2023-10-09T16:01:55.882Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -7508664262
+2023-10-09T16:01:55.882Z In(05) vmx Disabling TSC scaling since host does not support it.
+2023-10-09T16:01:55.882Z In(05) vmx TSC offsetting enabled.
+2023-10-09T16:01:55.882Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2023-10-09T16:01:55.882Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2023-10-09T16:01:55.882Z In(05) vmx MKS PowerOn
+2023-10-09T16:01:55.883Z In(05) mks VTHREAD 21396 "mks"
+2023-10-09T16:01:55.883Z In(05) mks MKS thread is alive
+2023-10-09T16:01:55.883Z In(05) svga VTHREAD 15576 "svga"
+2023-10-09T16:01:55.883Z In(05) svga SVGA thread is alive
+2023-10-09T16:01:55.883Z In(05) mks MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2023-10-09T16:01:55.884Z In(05) mouse VTHREAD 2092 "mouse"
+2023-10-09T16:01:55.885Z In(05) mks MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2023-10-09T16:01:55.885Z In(05) kbh VTHREAD 11256 "kbh"
+2023-10-09T16:01:55.887Z In(05) mks MKS Win32: Registering top level window (0x2707a0) to receive session change notification.
+2023-10-09T16:01:55.888Z In(05) mks Current Display Settings:
+2023-10-09T16:01:55.888Z In(05) mks    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2023-10-09T16:01:55.888Z In(05) mks MKS Win32: MIL: 0x4000
+2023-10-09T16:01:55.888Z In(05) mks MKS-RenderMain: PowerOn allowed MKSBasicOps DX11Renderer DX11BasicRenderer DX12Renderer 
+2023-10-09T16:01:55.888Z In(05) mks MKS-RenderMain: ISB enabled by config
+2023-10-09T16:01:55.888Z In(05) mks MKS-RenderMain: Collecting RenderOps caps from DX12Renderer
+2023-10-09T16:01:55.888Z In(05) mks MKS-RenderMain: Starting ISBRenderer (DX12Renderer)
+2023-10-09T16:01:55.888Z In(05) mks ISBRendererComm: ISBRendererComm DataChannel size=1073741824
+2023-10-09T16:01:55.888Z In(05) mks LocalMKS: MKS_UUID=52 a9 77 48 ff fa 7f cf-9f f4 d0 3e d4 fe 78 44
+2023-10-09T16:01:55.889Z In(05) mks ISBRendererComm: mksSandbox command-line: C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe --pipeInfo \\.\pipe\vmware\mksSandbox\mksSandbox-52 83 ef eb 44 e6 f3 53-9c d6 93 d7 de 09 64 e4
+2023-10-09T16:01:55.909Z In(05) mks ISBRendererComm: Spawned process with handle 1300
+2023-10-09T16:01:57.106Z In(05) mks ISBRendererComm: Sandbox Renderer: DX12Renderer
+2023-10-09T16:01:57.109Z In(05) mks MKS-RenderMain: Started ISBRenderer (DX12Renderer)
+2023-10-09T16:01:57.109Z In(05) mks MKS-RenderMain: Found Full Renderer: ISBRenderer (DX12Renderer)
+2023-10-09T16:01:57.109Z In(05) mks MKS-RenderMain: maxTextureSize=16384
+2023-10-09T16:01:57.109Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2023-10-09T16:01:57.109Z In(05) mks MKSRemoteMgr: Set default display name: mbransom
+2023-10-09T16:01:57.109Z In(05) mks MKSRemoteMgr: Loading VNC Configuration from VM config file
+2023-10-09T16:01:57.109Z In(05) mks MKSRemoteMgr: Using default VNC keymap table "us"
+2023-10-09T16:01:57.109Z In(05) vmx VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2023-10-09T16:01:57.109Z In(05) vmx VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2023-10-09T16:01:57.109Z In(05) vmx Chipset version: 0
+2023-10-09T16:01:57.110Z In(05) vmx memoryHotplug: No PCI hole remapping.  Hot add and hot remove unsupported
+2023-10-09T16:01:57.110Z In(05) vmx memoryHotplug: Node 0: Present: 63 MB (100 %) Size:63 MB (100 %)
+2023-10-09T16:01:57.110Z In(05) vmx SOUNDLIB: Creating the Wave sound backend.
+2023-10-09T16:01:57.111Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation begins.
+2023-10-09T16:01:57.111Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation completes.
+2023-10-09T16:01:57.111Z No(00) vmx ConfigDB: Setting scsi0:0.redo = ""
+2023-10-09T16:01:57.111Z In(05) vmx DISK: OPEN scsi0:0 'D:\CTF\Flareon10\mbransom\vmware\hda.vmdk' persistent R[]
+2023-10-09T16:01:57.113Z In(05) vmx DISKLIB-LIB_MISC   : DiskLib_GetStorageBlockSizes: Failed to get storage block sizes, The virtual disk requires a feature not supported by this program.
+2023-10-09T16:01:57.113Z In(05) vmx DiskGetGeometry: Reading of disk partition table
+2023-10-09T16:01:57.113Z In(05) vmx DISK: Disk 'D:\CTF\Flareon10\mbransom\vmware\hda.vmdk' has no UUID
+2023-10-09T16:01:57.113Z In(05) vmx DISK: OPEN 'D:\CTF\Flareon10\mbransom\vmware\hda.vmdk' Geo (1024/16/63) BIOS Geo (1024/16/63)
+2023-10-09T16:01:57.115Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2023-10-09T16:01:57.115Z In(05) vmx DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2023-10-09T16:01:57.115Z In(05) vmx DISK: Opening disks took 3 ms.
+2023-10-09T16:01:57.115Z In(05) vmx DISK: AdapterType mismatch for 'scsi0:0': disk was created for ide
+2023-10-09T16:01:57.115Z In(05) vmx VUsb powered on, but no USB controllers.
+2023-10-09T16:01:57.115Z In(05) vmx OBJLIB-FILEBE : FileBEOpen: can't open 'mbransom.nvram' : Could not find the file (393218).
+2023-10-09T16:01:57.115Z In(05) vmx OBJLIB-FILEBE : FileBEOpen: can't open 'mbransom.nvram' : Could not find the file (393218).
+2023-10-09T16:01:57.115Z Wa(03) vmx NVRAMMGR: No valid NVRAM file found, will create default NVRAM.
+2023-10-09T16:01:57.116Z In(05) vmx SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2023-10-09T16:01:57.116Z In(05) vmx SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: default
+2023-10-09T16:01:57.116Z In(05) vmx DISKUTIL: scsi0:0 : capacity=1032192 logical sector size=512
+2023-10-09T16:01:57.116Z In(05) vmx DISKUTIL: scsi0:0 : geometry=1024/16/63
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Autodetected target gfbSize = 268435456
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Using Initial       gfbSize = 134217728
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Max wh(6688, 5016), number of displays: 2
+2023-10-09T16:01:57.116Z In(05) vmx SVGA-GFB: Allocated gfbSize=134217728
+2023-10-09T16:01:57.116Z No(00) vmx ConfigDB: Setting vmotion.checkpointFBSize = "134217728"
+2023-10-09T16:01:57.116Z In(05) vmx SVGA: SVGA DeviceLabel: svga2
+2023-10-09T16:01:57.117Z In(05) vmx SVGA: surfaceMemoryLimitKB=786432
+2023-10-09T16:01:57.117Z In(05) vmx SVGA: FIFO capabilities 0x0000007f
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.supports3D bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.baseCapsLevel num 11
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxPointSize num 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureSize num 16384
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxVolumeExtent num 2048
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxTextureAnisotropy num 16
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.lineStipple bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxMaxConstantBuffers num 15
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.dxProvokingVertex bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm41 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample2x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample4x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.msFullQuality bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicOps bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.bc67 num 9
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.sm5 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.multisample8x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.logicBlendOps bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.maxForcedSampleCount num 16
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (before clamping) svga.gl43 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.supports3D bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.baseCapsLevel num 9
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxPointSize num 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureSize num 16384
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxVolumeExtent num 2048
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxTextureAnisotropy num 16
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.lineStipple bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxMaxConstantBuffers num 15
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.dxProvokingVertex bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm41 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample2x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample4x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.msFullQuality bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicOps bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.bc67 num 9
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.sm5 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.multisample8x bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.logicBlendOps bool 0
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.maxForcedSampleCount num 16
+2023-10-09T16:01:57.117Z In(05) vmx SVGAFeature renderer (after  clamping) svga.gl43 bool 1
+2023-10-09T16:01:57.117Z In(05) vmx SVGA3dClamp: Renderer Provides     BC67Level:     9 (    9,     9)
+2023-10-09T16:01:57.117Z In(05) vmx SVGA3dClamp: Renderer Provides BaseCapsLevel:     9 (    9,     9)
+2023-10-09T16:01:57.117Z In(05) vmx SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,    10)
+2023-10-09T16:01:57.117Z In(05) vmx SVGA3dCaps: host, at power on (3d enabled)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  0]: 0x00000001 (3D)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  1]: 0x00000008 (MAX_LIGHTS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  2]: 0x00000008 (MAX_TEXTURES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  5]: 0x00000001 (VERTEX_SHADER)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 15]: 0x00000001 (QUERY_TYPES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 62]: 0x00000000 (MISSING62)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 70]: 0x00000000 (DEAD4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 71]: 0x00000000 (DEAD5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 72]: 0x00000000 (DEAD7)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 73]: 0x00000000 (DEAD6)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 76]: 0x00000000 (DEAD10)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 84]: 0x00000000 (DEAD1)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 85]: 0x00000000 (DEAD8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 86]: 0x00000000 (DEAD9)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 87]: 0x00000001 (LINE_AA)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 89]:  10.000000 (MAX_LINE_WIDTH)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 90]:  10.000000 (MAX_AA_LINE_WIDTH)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 92]: 0x00000000 (DEAD3)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 93]: 0x00000000 (TS_COLOR_KEY)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 94]: 0x00000000 (DEAD2)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 95]: 0x00000000 (DXCONTEXT)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 96]: 0x00000000 (DEAD11)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 97]: 0x00000000 (DX_MAX_VERTEXBUFFERS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 98]: 0x00000000 (DX_MAX_CONSTANT_BUFFERS)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[100]: 0x00000000 (DXFMT_X8R8G8B8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[101]: 0x00000000 (DXFMT_A8R8G8B8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[102]: 0x00000000 (DXFMT_R5G6B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[103]: 0x00000000 (DXFMT_X1R5G5B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[104]: 0x00000000 (DXFMT_A1R5G5B5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[105]: 0x00000000 (DXFMT_A4R4G4B4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[106]: 0x00000000 (DXFMT_Z_D32)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[107]: 0x00000000 (DXFMT_Z_D16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[108]: 0x00000000 (DXFMT_Z_D24S8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[109]: 0x00000000 (DXFMT_Z_D15S1)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[110]: 0x00000000 (DXFMT_LUMINANCE8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[111]: 0x00000000 (DXFMT_LUMINANCE4_ALPHA4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[112]: 0x00000000 (DXFMT_LUMINANCE16)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[113]: 0x00000000 (DXFMT_LUMINANCE8_ALPHA8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[114]: 0x00000000 (DXFMT_DXT1)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[115]: 0x00000000 (DXFMT_DXT2)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[116]: 0x00000000 (DXFMT_DXT3)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[117]: 0x00000000 (DXFMT_DXT4)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[118]: 0x00000000 (DXFMT_DXT5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[119]: 0x00000000 (DXFMT_BUMPU8V8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[121]: 0x00000000 (DXFMT_BUMPX8L8V8U8)
+2023-10-09T16:01:57.117Z In(05) vmx   cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[123]: 0x00000000 (DXFMT_ARGB_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[124]: 0x00000000 (DXFMT_ARGB_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[125]: 0x00000000 (DXFMT_A2R10G10B10)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[126]: 0x00000000 (DXFMT_V8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[127]: 0x00000000 (DXFMT_Q8W8V8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[128]: 0x00000000 (DXFMT_CxV8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[129]: 0x00000000 (DXFMT_X8L8V8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[130]: 0x00000000 (DXFMT_A2W10V10U10)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[131]: 0x00000000 (DXFMT_ALPHA8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[132]: 0x00000000 (DXFMT_R_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[133]: 0x00000000 (DXFMT_R_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[134]: 0x00000000 (DXFMT_RG_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[135]: 0x00000000 (DXFMT_RG_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[136]: 0x00000000 (DXFMT_BUFFER)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[137]: 0x00000000 (DXFMT_Z_D24X8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[138]: 0x00000000 (DXFMT_V16U16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[139]: 0x00000000 (DXFMT_G16R16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[140]: 0x00000000 (DXFMT_A16B16G16R16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[141]: 0x00000000 (DXFMT_UYVY)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[142]: 0x00000000 (DXFMT_YUY2)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[143]: 0x00000000 (DXFMT_NV12)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[144]: 0x00000000 (DXFMT_FORMAT_DEAD2)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[145]: 0x00000000 (DXFMT_R32G32B32A32_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[146]: 0x00000000 (DXFMT_R32G32B32A32_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[147]: 0x00000000 (DXFMT_R32G32B32A32_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[148]: 0x00000000 (DXFMT_R32G32B32_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[149]: 0x00000000 (DXFMT_R32G32B32_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[150]: 0x00000000 (DXFMT_R32G32B32_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[151]: 0x00000000 (DXFMT_R32G32B32_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[152]: 0x00000000 (DXFMT_R16G16B16A16_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[153]: 0x00000000 (DXFMT_R16G16B16A16_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[154]: 0x00000000 (DXFMT_R16G16B16A16_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[155]: 0x00000000 (DXFMT_R16G16B16A16_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[156]: 0x00000000 (DXFMT_R32G32_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[157]: 0x00000000 (DXFMT_R32G32_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[158]: 0x00000000 (DXFMT_R32G32_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[159]: 0x00000000 (DXFMT_R32G8X24_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[160]: 0x00000000 (DXFMT_D32_FLOAT_S8X24_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[161]: 0x00000000 (DXFMT_R32_FLOAT_X8X24)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[162]: 0x00000000 (DXFMT_X32_G8X24_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[163]: 0x00000000 (DXFMT_R10G10B10A2_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[164]: 0x00000000 (DXFMT_R10G10B10A2_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[165]: 0x00000000 (DXFMT_R11G11B10_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[166]: 0x00000000 (DXFMT_R8G8B8A8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[167]: 0x00000000 (DXFMT_R8G8B8A8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[168]: 0x00000000 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[169]: 0x00000000 (DXFMT_R8G8B8A8_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[170]: 0x00000000 (DXFMT_R8G8B8A8_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[171]: 0x00000000 (DXFMT_R16G16_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[172]: 0x00000000 (DXFMT_R16G16_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[173]: 0x00000000 (DXFMT_R16G16_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[174]: 0x00000000 (DXFMT_R32_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[175]: 0x00000000 (DXFMT_D32_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[176]: 0x00000000 (DXFMT_R32_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[177]: 0x00000000 (DXFMT_R32_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[178]: 0x00000000 (DXFMT_R24G8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[179]: 0x00000000 (DXFMT_D24_UNORM_S8_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[180]: 0x00000000 (DXFMT_R24_UNORM_X8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[181]: 0x00000000 (DXFMT_X24_G8_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[182]: 0x00000000 (DXFMT_R8G8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[183]: 0x00000000 (DXFMT_R8G8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[184]: 0x00000000 (DXFMT_R8G8_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[185]: 0x00000000 (DXFMT_R8G8_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[186]: 0x00000000 (DXFMT_R16_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[187]: 0x00000000 (DXFMT_R16_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[188]: 0x00000000 (DXFMT_R16_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[189]: 0x00000000 (DXFMT_R16_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[190]: 0x00000000 (DXFMT_R16_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[191]: 0x00000000 (DXFMT_R8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[192]: 0x00000000 (DXFMT_R8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[193]: 0x00000000 (DXFMT_R8_UINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[194]: 0x00000000 (DXFMT_R8_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[195]: 0x00000000 (DXFMT_R8_SINT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[196]: 0x00000000 (DXFMT_P8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[197]: 0x00000000 (DXFMT_R9G9B9E5_SHAREDEXP)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[198]: 0x00000000 (DXFMT_R8G8_B8G8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[199]: 0x00000000 (DXFMT_G8R8_G8B8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[200]: 0x00000000 (DXFMT_BC1_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[201]: 0x00000000 (DXFMT_BC1_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[202]: 0x00000000 (DXFMT_BC2_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[203]: 0x00000000 (DXFMT_BC2_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[204]: 0x00000000 (DXFMT_BC3_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[205]: 0x00000000 (DXFMT_BC3_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[206]: 0x00000000 (DXFMT_BC4_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[207]: 0x00000000 (DXFMT_ATI1)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[208]: 0x00000000 (DXFMT_BC4_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[209]: 0x00000000 (DXFMT_BC5_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[210]: 0x00000000 (DXFMT_ATI2)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[211]: 0x00000000 (DXFMT_BC5_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[212]: 0x00000000 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[213]: 0x00000000 (DXFMT_B8G8R8A8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[214]: 0x00000000 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[215]: 0x00000000 (DXFMT_B8G8R8X8_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[216]: 0x00000000 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[217]: 0x00000000 (DXFMT_Z_DF16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[218]: 0x00000000 (DXFMT_Z_DF24)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[219]: 0x00000000 (DXFMT_Z_D24S8_INT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[220]: 0x00000000 (DXFMT_YV12)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[221]: 0x00000000 (DXFMT_R32G32B32A32_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[222]: 0x00000000 (DXFMT_R16G16B16A16_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[223]: 0x00000000 (DXFMT_R16G16B16A16_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[224]: 0x00000000 (DXFMT_R32G32_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[225]: 0x00000000 (DXFMT_R10G10B10A2_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[226]: 0x00000000 (DXFMT_R8G8B8A8_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[227]: 0x00000000 (DXFMT_R16G16_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[228]: 0x00000000 (DXFMT_R16G16_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[229]: 0x00000000 (DXFMT_R16G16_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[230]: 0x00000000 (DXFMT_R32_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[231]: 0x00000000 (DXFMT_R8G8_SNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[232]: 0x00000000 (DXFMT_R16_FLOAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[233]: 0x00000000 (DXFMT_D16_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[234]: 0x00000000 (DXFMT_A8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[235]: 0x00000000 (DXFMT_BC1_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[236]: 0x00000000 (DXFMT_BC2_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[237]: 0x00000000 (DXFMT_BC3_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[238]: 0x00000000 (DXFMT_B5G6R5_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[239]: 0x00000000 (DXFMT_B5G5R5A1_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[240]: 0x00000000 (DXFMT_B8G8R8A8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[241]: 0x00000000 (DXFMT_B8G8R8X8_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[242]: 0x00000000 (DXFMT_BC4_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[243]: 0x00000000 (DXFMT_BC5_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[244]: 0x00000000 (SM41)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[245]: 0x00000000 (MULTISAMPLE_2X)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[246]: 0x00000000 (MULTISAMPLE_4X)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[247]: 0x00000000 (MS_FULL_QUALITY)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[248]: 0x00000001 (LOGICOPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[249]: 0x00000000 (LOGIC_BLENDOPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[250]: 0x00000000 (DEAD12)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[251]: 0x00000000 (DXFMT_BC6H_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[252]: 0x00000000 (DXFMT_BC6H_UF16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[253]: 0x00000000 (DXFMT_BC6H_SF16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[254]: 0x00000000 (DXFMT_BC7_TYPELESS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[255]: 0x00000000 (DXFMT_BC7_UNORM)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[256]: 0x00000000 (DXFMT_BC7_UNORM_SRGB)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[257]: 0x00000000 (DEAD13)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[258]: 0x00000000 (SM5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[259]: 0x00000000 (MULTISAMPLE_8X)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[260]: 0x00000000 (MAX_FORCED_SAMPLE_COUNT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[261]: 0x00000000 (GL43)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:     Host Provides     BC67Level:     0 (    0,     0)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:     Host Provides BaseCapsLevel:     3 (    3,     7)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     8)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dCaps: guest, compatibility level: 8
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  0]: 0x00000001 (3D)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  1]: 0x00000008 (MAX_LIGHTS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  2]: 0x00000008 (MAX_TEXTURES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  5]: 0x00000001 (VERTEX_SHADER)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 15]: 0x00000001 (QUERY_TYPES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 62]: 0x00000000 (MISSING62)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 70]: 0x00000000 (DEAD4)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 71]: 0x00000000 (DEAD5)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 72]: 0x00000000 (DEAD7)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 73]: 0x00000000 (DEAD6)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 76]: 0x00000000 (DEAD10)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2023-10-09T16:01:57.118Z In(05) vmx   cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:    Guest Requires     BC67Level:     0 (    0,     0)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:    Guest Requires BaseCapsLevel:     7 (    1,     7)
+2023-10-09T16:01:57.118Z In(05) vmx SVGA3dClamp:    Guest Requires    ClampLevel:     8 (    0,     8)
+2023-10-09T16:01:57.119Z In(05) vmx VSOCKPROXY: No vmci device present.
+2023-10-09T16:01:57.120Z In(05) vmx VMCIDatagram: Attempt to create handle (14) with no device
+2023-10-09T16:01:57.120Z In(05) vmx WORKER: Creating new group with maxThreads=1 (34)
+2023-10-09T16:01:57.120Z In(05) vmx DISKUTIL: (null) : max toolsVersion = 0, type = 0
+2023-10-09T16:01:57.120Z In(05) vmx DISKUTIL: Offline toolsVersion = 0, type = 0
+2023-10-09T16:01:57.120Z In(05) vmx TOOLS setting legacy tools version to '0' type 0, manifest status is 9
+2023-10-09T16:01:57.120Z In(05) vmx ToolsISO: Refreshing imageName for 'win2000pro' (refreshCount=1, lastCount=1).
+2023-10-09T16:01:57.120Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-09T16:01:57.120Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-09T16:01:57.120Z In(05) vmx ToolsISO: Updated cached value for imageName to 'winPreVista.iso'.
+2023-10-09T16:01:57.120Z In(05) vmx ToolsISO: Selected Tools ISO 'winPreVista.iso' for 'win2000pro' guest.
+2023-10-09T16:01:57.120Z In(05) vmx TOOLS updated cached value for isoImageExists to 1.
+2023-10-09T16:01:57.120Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'noTools', 'noTools', install possible
+2023-10-09T16:01:57.121Z In(05) vmx ToolsISO: Refreshing imageName for 'win2000pro' (refreshCount=1, lastCount=1).
+2023-10-09T16:01:57.121Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-09T16:01:57.121Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-09T16:01:57.121Z In(05) vmx ToolsISO: Updated cached value for imageName to 'winPreVista.iso'.
+2023-10-09T16:01:57.121Z In(05) vmx ToolsISO: Selected Tools ISO 'winPreVista.iso' for 'win2000pro' guest.
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS updated cached value for isoImageExists to 1.
+2023-10-09T16:01:57.121Z In(05) vmx VMXVmdb_SetToolsVersionStatus: status value set to 'noTools', 'noTools', install possible
+2023-10-09T16:01:57.121Z In(05) vmx Tools: sending 'OS_PowerOn' (state = 3) state change request
+2023-10-09T16:01:57.121Z In(05) vmx Tools: Delaying state change request to state 3.
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL initializing state to IDLE on power on.
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL updating Rpc handlers registration.
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL register RPC: upgrader.setGuestFileRoot
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.is_image_inserted
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL register RPC: toolinstall.installerActive
+2023-10-09T16:01:57.121Z In(05) vmx TOOLS INSTALL register RPC: guest.upgrader_send_cmd_line_args
+2023-10-09T16:01:57.121Z In(05) vmx P9FS_PowerOn: 9PFS server is not enabled.
+2023-10-09T16:01:57.121Z In(05) vmx HgfsServerManagerVigorInit: Initialize: dev api
+2023-10-09T16:01:57.121Z In(05) vmx MKSVMX: Copy/paste enabled = 1
+2023-10-09T16:01:57.121Z In(05) vmx DEPLOYPKG: No pending deploy package name set
+2023-10-09T16:01:57.121Z In(05) vmx DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2023-10-09T16:01:57.131Z No(00) vmx ConfigDB: Setting monitor.phys_bits_used = "36"
+2023-10-09T16:01:57.131Z In(05) vmx Full guest CPUID with differences from hostCPUID highlighted.
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest vendor: GenuineIntel
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest family: 0x6 model: 0xb7 stepping: 0x1
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest codename: Unknown
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest name: 13th Gen Intel(R) Core(TM) i5-13600KF
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000000,  0: 0x00000020 0x756e6547 0x6c65746e 0x49656e69
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000001,  0: 0x000b0671 0x00010800 0x02d82203 0x0f8bfbff
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000001,  0: 0x000b0671 0x00800800 0xfffaf38b 0xbfcbfbff
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000002,  0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000004,  0: 0x00000121 0x02c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000004,  0: 0xfc004121 0x02c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000004,  1: 0x00000122 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000004,  1: 0xfc004122 0x01c0003f 0x0000003f 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000004,  2: 0x00000143 0x03c0003f 0x000007ff 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000004,  2: 0xfc01c143 0x03c0003f 0x000007ff 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000004,  3: 0x00000163 0x02c0003f 0x00007fff 0x00000004
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000004,  3: 0xfc1fc163 0x02c0003f 0x00007fff 0x00000004
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000006,  0: 0x00000004 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000006,  0: 0x009f8ff3 0x00000002 0x00000401 0x00000003
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000007,  0: 0x00000001 0x239c27a9 0x184007a4 0xbc18c410
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 00000007,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 00000007,  1: 0x00400810 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 0000000a,  0: 0x07300601 0x000000ff 0x00000007 0x00008000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 0000000a,  0: 0x07300605 0x00000000 0x00000007 0x00008603
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 0000000d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 0000000d,  0: 0x00000007 0x00000340 0x00000340 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 0000000d,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 0000000d,  1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000000,  0: 0x80000008 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000001,  0: 0x00000000 0x00000000 0x00000101 0x28100800
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 80000001,  0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000002,  0: 0x68743331 0x6e654720 0x746e4920 0x52286c65
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000003,  0: 0x6f432029 0x54286572 0x6920294d 0x33312d35
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000004,  0: 0x4b303036 0x00000046 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000006,  0: 0x00000000 0x00000000 0x08007040 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000000 0x00000000 0x00000100
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID guest level 80000008,  0: 0x00003024 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx guest vs. host CPUID *host level 80000008,  0: 0x00003027 0x00000000 0x00000000 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx Minimum ucode level: 0x0000010f
+2023-10-09T16:01:57.131Z In(05) vmx VPMC: events will use hybrid freeze.
+2023-10-09T16:01:57.131Z In(05) vmx VPMC: gen counters: num 6 mask 0xffffffffffff
+2023-10-09T16:01:57.131Z In(05) vmx VPMC: fix counters: num 0 mask 0; version 1
+2023-10-09T16:01:57.131Z In(05) vmx VPMC: hardware counters: 0
+2023-10-09T16:01:57.131Z In(05) vmx SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2023-10-09T16:01:57.131Z In(05) vmx SVGA: SVGA_REG_MEMORY_SIZE=939524096
+2023-10-09T16:01:57.131Z In(05) vmx SVGA: SVGA_REG_VRAM_SIZE=134217728
+2023-10-09T16:01:57.131Z In(05) vmx SVGA: Final Device caps : 0x000bc3e2
+2023-10-09T16:01:57.131Z In(05) vmx SVGA: Final Device caps2: 0x00000000
+2023-10-09T16:01:57.131Z In(05) vmx PStrIntern expansion: nBkts=256
+2023-10-09T16:01:57.131Z In(05) vmx FeatureCompat: Capabilities:
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.sse3 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.pclmulqdq = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.mwait = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ssse3 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.fma = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.cmpxchg16b = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.pcid = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.sse41 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.sse42 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.movbe = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.popcnt = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.aes = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xsave = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.avx = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.f16c = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.rdrand = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ds = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ss = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.fsgsbase = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.bmi1 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.avx2 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.smep = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.bmi2 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.enfstrg = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.invpcid = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.rdseed = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.adx = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.smap = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.clflushopt = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.clwb = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.sha = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.umip = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.gfni = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.vaes = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.vpclmulqdq = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.rdpid = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.movdiri = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.movdir64b = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.fast_short_repmov = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.serialize = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.cet_ibt = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.stibp = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.fcmd = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ssbd = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.avx_vnni = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.fast_short_stosb = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xcr0_master_sse = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xcr0_master_ymm_h = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xcr0_master_bndregs = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xcr0_master_bndcsr = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xsaveopt = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xsavec = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xgetbv_ecx1 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.xsaves = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.lahf64 = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.abm = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.3dnprefetch = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.nx = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.pdpe1gb = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.rdtscp = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.lm = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.intel = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ibrs = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: cpuid.ibpb = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: misc.cpuidfaulting = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: misc.rdcl_no = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: misc.ibrs_all = 1
+2023-10-09T16:01:57.131Z In(05) vmx Capability Found: misc.mds_no = 1
+2023-10-09T16:01:57.131Z In(05) vmx FeatureCompat: Requirements:
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.sse3 - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.pclmulqdq - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.ssse3 - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.cmpxchg16b - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.sse41 - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.sse42 - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.movbe - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.popcnt - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.aes - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.ss - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.lahf64 - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.3dnprefetch - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.nx - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.rdtscp - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.lm - Bool:Min:1
+2023-10-09T16:01:57.131Z In(05) vmx VM Features Required: cpuid.intel - Bool:Min:1
+2023-10-09T16:01:57.134Z In(05) vmx TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2023-10-09T16:01:57.134Z In(05) vmx 
+2023-10-09T16:01:57.134Z In(05)+ vmx OvhdMem: Static (Power On) Overheads
+2023-10-09T16:01:57.134Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_MainMem                    :   16384  16384      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxText                    :    7680   7680      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxTextLibs                :   16000  16000      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Total excluded                      :   40064  40064      - |      -      -      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Actual maximum                      :          40064        |             -
+2023-10-09T16:01:57.134Z In(05)+ vmx 
+2023-10-09T16:01:57.134Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaSurfaceTable           :    2944   2944      - |    385    385      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaBESurfaceTable         :     196    196      - |    196    196      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaHBTables               :     993    993      - |    641    641      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaHBMobListTable         :      69     69      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaShaderTable            :    1000   1000      - |    193    193      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaShaderText             :    2304   2304      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaContextCache           :    1405   1405      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXRTViewTable          :      31     31      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXDSViewTable          :      16     16      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXSRViewTable          :    1021   1021      - |    193    193      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXUAViewTable          :      70     70      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXBlendStateTable      :      31     31      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXElementLayoutTable   :     199    199      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXDepthStencilTable    :      19     19      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXRasterizerStateTable :      19     19      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXSamplerTable         :     141    141      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXContextTable         :    1472   1472      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXShaderTable          :     241    241      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXShaderText           :    4352   4352      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXStreamOutTable       :     516    516      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaDXQueryTable           :     132    132      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaVAProcessorTable       :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaVADecoderTable         :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxHeap                    :   10752  10752      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMks                     :      33     33      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksRenderOps            :    3494   3494      - |   2540   2540      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMks3d                   :  745472 745472      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksHBMobs               :  778240 778240      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksLLVM                 :   12288  12288      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksScreenTemp           :   37122  37122      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksVnc                  :   38236  38236      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksScreen               :   65539  65539      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VmxThreads                 :   36352  36352      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Total paged                         :  1768503 1768503      - |   4158   4158      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Actual maximum                      :         1768503        |        1768503
+2023-10-09T16:01:57.134Z In(05)+ vmx 
+2023-10-09T16:01:57.134Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SharedArea                 :       7      7      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_BusMemTraceBitmap          :       7      7      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_PFrame                     :       0   1312      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_BusMemFrame                :      56   1143      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_LocalApic                  :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SVGAFB                     :   32768  32768      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_LBR                        :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_MonWired                   :      35     35      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Total nonpaged                      :   33640  36039      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem Actual maximum                      :          33640        |         36039
+2023-10-09T16:01:57.134Z In(05)+ vmx 
+2023-10-09T16:01:57.134Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_Alloc                       :      98     98      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMemFrame                 :      49    170      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMem2MInfo                :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMemPreval                :       4      4      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_GuestMem                    :      40     40      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_PlatformMonAS               :       5      5      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_HVMSRBitmap                 :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_VHVGuestMSRBitmap           :       1      1      - |      0      0      -
+2023-10-09T16:01:57.134Z In(05) vmx OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_GPhysTraced                 :     264    264      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_GPhysHWMMU                  :     354    354      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem Total anonymous                     :    4071   4192      - |      0      0      -
+2023-10-09T16:01:57.135Z In(05) vmx OvhdMem Actual maximum                      :           4071        |          4192
+2023-10-09T16:01:57.135Z In(05)+ vmx 
+2023-10-09T16:01:57.135Z In(05) vmx VMMEM: Precise Reservation: 7055MB (MainMem=64MB)
+2023-10-09T16:01:57.135Z In(05) vmx VMXSTATS: Registering 4 stats: vmx.overheadMemSize
+2023-10-09T16:01:57.135Z In(05) vmx Vix: [mainDispatch.c:1058]: VMAutomation_PowerOn. Powering on.
+2023-10-09T16:01:57.135Z In(05) vmx VMX_PowerOn: ModuleTable_PowerOn = 1
+2023-10-09T16:01:57.135Z No(00) vmx ConfigDB: Setting cleanShutdown = "FALSE"
+2023-10-09T16:01:57.135Z No(00) vmx ConfigDB: Setting softPowerOff = "FALSE"
+2023-10-09T16:01:57.142Z In(05) vcpu-0 VTHREAD 24848 "vcpu-0"
+2023-10-09T16:01:57.144Z In(05) vcpu-0 CPU reset: hard (mode Emulation)
+2023-10-09T16:01:57.144Z Wa(03) vcpu-0 VSOCKET 3 Failed to create socket: The verify-on-write switch parameter value is not correct (118)
+2023-10-09T16:01:57.144Z In(05) vcpu-0 GuestRpc: Could not create RPCI listening socket: The verify-on-write switch parameter value is not correct
+2023-10-09T16:01:57.144Z In(05) vcpu-0 GuestRpc: Using vsocket for TCLO messaging is disabled.
+2023-10-09T16:01:57.145Z In(05) vcpu-0 PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2023-10-09T16:01:57.145Z In(05) vcpu-0 HGFSPublish: publishing 0 shares
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.accelerometer"
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.ambientLight"
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.compass"
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.gyrometer"
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.inclinometer"
+2023-10-09T16:01:57.145Z No(00) vcpu-0 ConfigDB: Unsetting "sensor.orientation"
+2023-10-09T16:01:57.146Z In(05) vcpu-0 Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.vmpl", ...) failed, error: 2
+2023-10-09T16:01:57.146Z In(05) vcpu-0 PolicyVMXFindPolicyKey: policy file does not exist.
+2023-10-09T16:01:57.147Z In(05) vcpu-0 DEVSWAP: GuestOS does not require LSI adapter swap.
+2023-10-09T16:01:57.147Z In(05) vcpu-0 Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2023-10-09T16:01:57.147Z In(05) vcpu-0 Vix: [mainDispatch.c:4130]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2023-10-09T16:01:57.147Z In(05) vcpu-0 Vix: [mainDispatch.c:4130]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2023-10-09T16:01:57.147Z In(05) vcpu-0 Transitioned vmx/execState/val to poweredOn
+2023-10-09T16:01:57.147Z In(05) vcpu-0 Tools: Adding Tools inactivity timer.
+2023-10-09T16:01:57.226Z In(05) mks MKSControlMgr: connected
+2023-10-09T16:01:57.230Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2023-10-09T16:01:57.230Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2023-10-09T16:01:57.237Z In(05) svga SWBScreen: Screen 0 Defined: xywh(0, 0, 640, 480) flags=0x3
+2023-10-09T16:01:57.237Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2023-10-09T16:01:57.322Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xf0000000(0) and 0xfe000000(0)
+2023-10-09T16:01:57.322Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.328Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2023-10-09T16:01:57.328Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.334Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2023-10-09T16:01:57.334Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.340Z In(05) vcpu-0 SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2023-10-09T16:01:57.340Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.342Z In(05) vcpu-0 SVGA: Registering IOSpace at 0x1090
+2023-10-09T16:01:57.342Z In(05) vcpu-0 SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2023-10-09T16:01:57.342Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.376Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:57.475Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2023-10-09T16:01:57.475Z In(05) mks SWBWindow: Window 1 Defined: src screenId=-1, src xywh(0, 0, 640, 480) dest xywh(0, 0, 640, 480) pixelScale=1, flags=0x10
+2023-10-09T16:01:57.477Z In(05) mks DXGIPresentation: Enumerating adapter 0
+2023-10-09T16:01:57.477Z In(05) mks DXGIPresentation: `NVIDIA GeForce RTX 2070` vendor=0x10de device=0x1f07 revision=161
+2023-10-09T16:01:57.477Z In(05) mks DXGIPresentation: video=8019MB system=0MB shared=32697MB
+2023-10-09T16:01:57.477Z In(05) mks DXGIPresentation: LOCAL     budget  7251M usage     0M avail  3753M res     0M
+2023-10-09T16:01:57.477Z In(05) mks DXGIPresentation: NON-LOCAL budget 31929M usage     0M avail 16092M res     0M
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: Using device unknown; adapter `NVIDIA GeForce RTX 2070`
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: Enumerating adapter 1
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: `Microsoft Basic Render Driver` vendor=0x1414 device=0x008c revision=0
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: video=0MB system=0MB shared=32697MB
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: LOCAL     budget 31929M usage     0M avail 16092M res     0M
+2023-10-09T16:01:58.086Z In(05) mks DXGIPresentation: NON-LOCAL budget     0M usage     0M avail     0M res     0M
+2023-10-09T16:01:58.089Z In(05) mks DXGIPresentation: NVIDIA driver version 537.42 (branch r537_41)
+2023-10-09T16:01:58.090Z In(05) mks MKS-HWinMux: Started DXGI presentation backend.
+2023-10-09T16:01:58.318Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2023-10-09T16:01:58.318Z In(05) mks SWBWindow: Window 0 Defined: src screenId=-1, src xywh(0, 0, 640, 480) dest xywh(0, 0, 640, 480) pixelScale=1, flags=0xF
+2023-10-09T16:01:58.339Z In(05) vcpu-0 SVGA: FIFO is already mapped
+2023-10-09T16:01:58.537Z In(05) vcpu-0 DISKUTIL: scsi0:0 : geometry=1024/16/63
+2023-10-09T16:01:58.537Z In(05) vcpu-0 DISKUTIL: scsi0:0 : capacity=1032192 logical sector size=512
+2023-10-09T16:01:58.563Z In(05) vcpu-0 Syncing WHP TSCs took 29 us. Threshold is 1000 us.
+2023-10-09T16:02:00.146Z In(05) vcpu-0 BIOS-UUID is 56 4d 6b 31 aa b4 9e 5d-ff 8b a0 e2 57 3d 2e 71
+2023-10-09T16:02:00.207Z In(05) svga SWBScreen: Screen 0 Resized: xywh(0, 0, 720, 400) flags=0x3
+2023-10-09T16:02:00.380Z In(05) vcpu-0 BUSLOGIC: Store HAL[16] = 0xffff
+2023-10-09T16:02:00.380Z In(05) vcpu-0 BUSLOGIC: Store HAL[18] = 0x0f01
+2023-10-09T16:02:00.903Z In(05) vcpu-0 SOUNDLIB: Creating WAVE backend stream.
+2023-10-09T16:02:00.930Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Rear audio (Realtek(R) Audio)
+2023-10-09T16:02:00.930Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Monitor (NVIDIA High Definition
+2023-10-09T16:02:00.930Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (UC02)
+2023-10-09T16:02:00.930Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (Steam Streaming Micro
+2023-10-09T16:02:00.930Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (Steam Streaming Speak
+2023-10-09T16:02:00.937Z In(05) vcpu-0 SOUNDLIB: SoundWaveComputeBufferParams: Initializing 7 buffers of length 2210, capable of holding a total of 175396 usecs of sound.
+2023-10-09T16:02:00.938Z In(05) soundWavePlayback0 VTHREAD 26020 "soundWavePlayback0"
+2023-10-09T16:02:00.938Z In(05) vcpu-0 SOUNDLIB: SoundWaveCreateStream: Created poll thread : id(26020)
+2023-10-09T16:02:00.938Z In(05) vcpu-0 SOUNDLIB: Starting WAVE stream 1DD75AEC510.
+2023-10-09T16:02:00.938Z In(05) soundWavePlayback0 SOUNDLIB: SoundWaveThread: Poll thread entered : id(26020)
+2023-10-09T16:02:15.301Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2023-10-09T16:02:15.301Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2023-10-09T16:02:36.326Z In(05) vmx SOUNDLIB: Stopping WAVE stream 1DD75AEC510.
+2023-10-09T16:02:36.331Z In(05) vmx SOUNDLIB: Closing WAVE stream 1DD75AEC510.
+2023-10-09T16:02:36.331Z In(05) vmx SOUNDLIB: SoundWaveCloseStream: Destroying poll thread : id(26020)
+2023-10-09T16:02:36.331Z In(05) soundWavePlayback0 SOUNDLIB: SoundWaveThread: Poll thread exited : id(26020)
+2023-10-09T16:03:11.824Z In(05) mks SWBWindow: Number of MKSWindows changed: 2 rendering MKSWindow(s) of total 2.
+2023-10-09T16:03:11.900Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2023-10-09T16:03:16.973Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2023-10-09T16:03:16.973Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2023-10-09T16:03:19.380Z In(05) mks SWBWindow: Number of MKSWindows changed: 2 rendering MKSWindow(s) of total 2.
+2023-10-09T16:03:19.421Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2023-10-09T16:03:27.069Z In(05) mks MKS-VMDB: VMDB requested a screenshot
+2023-10-09T16:03:27.069Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2023-10-09T16:03:31.257Z In(05) mks SWBWindow: Number of MKSWindows changed: 2 rendering MKSWindow(s) of total 2.
+2023-10-09T16:03:31.301Z In(05) mks SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2023-10-09T16:04:01.499Z In(05) vcpu-0 SOUNDLIB: Creating WAVE backend stream.
+2023-10-09T16:04:01.502Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Rear audio (Realtek(R) Audio)
+2023-10-09T16:04:01.502Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Monitor (NVIDIA High Definition
+2023-10-09T16:04:01.502Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (UC02)
+2023-10-09T16:04:01.502Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (Steam Streaming Micro
+2023-10-09T16:04:01.502Z In(05) vcpu-0 SOUNDLIB: SoundWaveSelectHostDevice: Found device Speakers (Steam Streaming Speak
+2023-10-09T16:04:01.512Z In(05) vcpu-0 SOUNDLIB: SoundWaveComputeBufferParams: Initializing 7 buffers of length 2210, capable of holding a total of 175396 usecs of sound.
+2023-10-09T16:04:01.513Z In(05) soundWavePlayback1 VTHREAD 12072 "soundWavePlayback1"
+2023-10-09T16:04:01.513Z In(05) vcpu-0 SOUNDLIB: SoundWaveCreateStream: Created poll thread : id(12072)
+2023-10-09T16:04:01.513Z In(05) vcpu-0 SOUNDLIB: Starting WAVE stream 1DD75AEC8D0.
+2023-10-09T16:04:01.513Z In(05) soundWavePlayback1 SOUNDLIB: SoundWaveThread: Poll thread entered : id(12072)
+2023-10-09T16:04:29.162Z In(05) vmx SOUNDLIB: Stopping WAVE stream 1DD75AEC8D0.
+2023-10-09T16:04:29.170Z In(05) vmx SOUNDLIB: Closing WAVE stream 1DD75AEC8D0.
+2023-10-09T16:04:29.170Z In(05) vmx SOUNDLIB: SoundWaveCloseStream: Destroying poll thread : id(12072)
+2023-10-09T16:04:29.170Z In(05) soundWavePlayback1 SOUNDLIB: SoundWaveThread: Poll thread exited : id(12072)
+2023-10-09T16:04:57.255Z In(05) vmx GuestRpcSendTimedOut: message to toolbox timed out.
+2023-10-09T16:04:57.255Z In(05) vmx Vix: [guestCommands.c:1945]: Error VIX_E_TOOLS_NOT_RUNNING in VMAutomationTranslateGuestRpcError(): VMware Tools are not running in the guest
+2023-10-09T16:06:23.976Z Wa(03) vmx VMX: attempted to do a soft suspend while not in the correct state. Ignored...
+2023-10-09T16:06:23.976Z In(05) vmx Vix: [vmxCommands.c:839]: VMAutomation_SuspendImpl: SoftSuspend failed.
+2023-10-09T16:06:23.976Z In(05) vmx SUSPEND: Start suspend (flags=0)
+2023-10-09T16:06:23.977Z In(05) svga MKSScreenShotMgr: Taking a screenshot
+2023-10-09T16:07:53.812Z In(05) vcpu-0 Closing all the disks of the VM.
+2023-10-09T16:07:53.812Z In(05) vcpu-0 Closing disk 'scsi0:0'
+2023-10-09T16:07:53.813Z In(05) vcpu-0 Progress -1% (msg.checkpoint.saveStatus)
+2023-10-09T16:07:53.813Z In(05) vcpu-0 Checkpointed in VMware Workstation, 17.0.0, build-20800274, Windows Host
+2023-10-09T16:07:53.814Z In(05) vcpu-0 Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom-edb2d729.vmem", ...) failed, error: 2
+2023-10-09T16:07:53.815Z In(05) vcpu-0 MainMem: Keep paging file 'D:\CTF\Flareon10\mbransom\vmware\mbransom-edb2d729.vmem' as memory image.
+2023-10-09T16:07:53.815Z In(05) vcpu-0 Progress 1% (none)
+2023-10-09T16:07:53.815Z In(05) vcpu-0 Progress 3% (none)
+2023-10-09T16:07:53.815Z In(05) vcpu-0 Progress 4% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 6% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 7% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 9% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 10% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 12% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 14% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 15% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 17% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 18% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 20% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 21% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 23% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 25% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 26% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 28% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 29% (none)
+2023-10-09T16:07:53.816Z In(05) vcpu-0 Progress 31% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 32% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 34% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 35% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 37% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 39% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 40% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 42% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 43% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 45% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 46% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 48% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 50% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 51% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 53% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 54% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 56% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 57% (none)
+2023-10-09T16:07:53.817Z In(05) vcpu-0 Progress 59% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 60% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 62% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 64% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 65% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 67% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 68% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 70% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 71% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 73% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 75% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 76% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 78% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 79% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 81% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 82% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 84% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 85% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 87% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 89% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 90% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 92% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 93% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 95% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 96% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 98% (none)
+2023-10-09T16:07:53.818Z In(05) vcpu-0 Progress 100% (none)
+2023-10-09T16:07:53.828Z In(05) vcpu-0 SVGA: Guest reported SVGA driver: (0, 0, 0, 0)
+2023-10-09T16:07:53.828Z In(05) vcpu-0 SVGA-ScreenMgr: No SVGA screens defined at checkpoint save.
+2023-10-09T16:07:53.828Z In(05) vcpu-0 Tools: [AppStatus] Last heartbeat value 0 (never received)
+2023-10-09T16:07:53.828Z In(05) vcpu-0 TOOLS: appName=toolbox, oldStatus=0, status=0, guestInitiated=0.
+2023-10-09T16:07:53.830Z In(05) vcpu-0 DEPLOYPKG: ToolsDeployPkgCptSave: state=0 err=0 (null msg)
+2023-10-09T16:07:53.830Z In(05) vcpu-0 Progress 101% (none)
+2023-10-09T16:07:53.831Z No(00) vcpu-0 ConfigDB: Setting checkpoint.vmState = "mbransom-edb2d729.vmss"
+2023-10-09T16:07:53.844Z In(05) vcpu-0 Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1875, success=1 additionalError=0
+2023-10-09T16:07:53.844Z In(05) vcpu-0 SUSPEND: Completed suspend: 'Operation completed successfully' (0)
+2023-10-09T16:07:53.844Z In(05) vmx Stopping VCPU threads...
+2023-10-09T16:07:53.845Z In(05) vmx MKSThread: Requesting MKS exit
+2023-10-09T16:07:53.845Z In(05) vmx Stopping MKS/SVGA threads
+2023-10-09T16:07:53.845Z In(05) svga SVGA thread is exiting the main loop
+2023-10-09T16:07:53.845Z In(05) mks SWBWindow: Window 0 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 720, 400) pixelScale=1, flags=0xF
+2023-10-09T16:07:53.845Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2023-10-09T16:07:53.845Z In(05) mks SWBWindow: Window 1 Destroyed: src screenId=-1, src xywh(0, 0, 720, 400) dest xywh(0, 0, 100, 100) pixelScale=1, flags=0x10
+2023-10-09T16:07:53.845Z In(05) mks DXGIPresentation: Clearing device context
+2023-10-09T16:07:53.845Z In(05) mks DXGIPresentation: Release D3D device
+2023-10-09T16:07:53.874Z In(05) mks DXGIPresentation: Releasing DXGI Adapter
+2023-10-09T16:07:53.874Z In(05) mks DXGIPresentation: Releasing DXGI factory
+2023-10-09T16:07:53.874Z In(05) mks SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2023-10-09T16:07:53.874Z In(05) mks SWBScreen: Screen 0 Destroyed: xywh(0, 0, 720, 400) flags=0x3
+2023-10-09T16:07:53.875Z In(05) vmx MKS/SVGA threads are stopped
+2023-10-09T16:07:53.875Z In(05) vmx 
+2023-10-09T16:07:53.875Z In(05)+ vmx OvhdMem: Final (Power Off) Overheads
+2023-10-09T16:07:53.875Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_MainMem                    :   16384  16384      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxText                    :    7680   7680      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxTextLibs                :   16000  16000      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem Total excluded                      :   40064  40064      - |      -      -      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem Actual maximum                      :          40064        |             -
+2023-10-09T16:07:53.875Z In(05)+ vmx 
+2023-10-09T16:07:53.875Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaSurfaceTable           :    2944   2944      - |    385    385      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaBESurfaceTable         :     196    196      - |    196    196      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaHBTables               :     993    993      - |    641    641      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaHBMobListTable         :      69     69      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaShaderTable            :    1000   1000      - |    193    193      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaShaderText             :    2304   2304      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaContextCache           :    1405   1405      - |      2      2      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXRTViewTable          :      31     31      - |      7      7      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXDSViewTable          :      16     16      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXSRViewTable          :    1021   1021      - |    193    193      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXUAViewTable          :      70     70      - |     13     13      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXBlendStateTable      :      31     31      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXElementLayoutTable   :     199    199      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXDepthStencilTable    :      19     19      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXRasterizerStateTable :      19     19      - |      4      4      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXSamplerTable         :     141    141      - |     13     13      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXContextTable         :    1472   1472      - |      1      1      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXShaderTable          :     241    241      - |     49     49      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXShaderText           :    4352   4352      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXStreamOutTable       :     516    516      - |      1      1      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaDXQueryTable           :     132    132      - |     13     13      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaVAProcessorTable       :       1      1      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaVADecoderTable         :       1      1      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxHeap                    :   10752  10752      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMks                     :      33     33      - |      1     11      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksRenderOps            :    3494   3494      - |   2540   2540      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMks3d                   :  745472 745472      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksHBMobs               :  778240 778240      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksLLVM                 :   12288  12288      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksScreenTemp           :   37122  37122      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksVnc                  :   38236  38236      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksScreen               :   65539  65539      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2023-10-09T16:07:53.875Z In(05) vmx OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VmxThreads                 :   36352  36352      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Total paged                         :  1768503 1768503      - |   4282   4292      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Actual maximum                      :         1768503        |        1768503
+2023-10-09T16:07:53.876Z In(05)+ vmx 
+2023-10-09T16:07:53.876Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_SharedArea                 :       7      7      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_BusMemTraceBitmap          :       7      7      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_PFrame                     :       0   1312      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_BusMemFrame                :      56   1143      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_LocalApic                  :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_SVGAFB                     :   32768  32768      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_LBR                        :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_MonWired                   :      35     35      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Total nonpaged                      :   33640  36039      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Actual maximum                      :          33640        |         36039
+2023-10-09T16:07:53.876Z In(05)+ vmx 
+2023-10-09T16:07:53.876Z In(05) vmx                                                       reserved      |          used
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_Alloc                       :      98     98      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMemFrame                 :      49    170      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMem2MInfo                :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMemPreval                :       4      4      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_GuestMem                    :      40     40      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_PlatformMonAS               :       5      5      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_HVMSRBitmap                 :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_VHVGuestMSRBitmap           :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_Bootstrap                   :    2300   2300      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_GPhysTraced                 :     264    264      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_GPhysHWMMU                  :     354    354      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Total anonymous                     :    4071   4192      - |      0      0      -
+2023-10-09T16:07:53.876Z In(05) vmx OvhdMem Actual maximum                      :           4071        |          4192
+2023-10-09T16:07:53.876Z In(05)+ vmx 
+2023-10-09T16:07:53.876Z In(05) vmx VMMEM: Maximum Reservation: 7065MB (MainMem=64MB)
+2023-10-09T16:07:53.876Z In(05) vmx MemSched: BALLOON HIST [0, 16384]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.876Z In(05) vmx MemSched: BALLOON P50 1 P70 1 P90 1 MIN 16384 MAX 0
+2023-10-09T16:07:53.876Z In(05) vmx MemSched: SWAP HIST [0, 16384]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.876Z In(05) vmx MemSched: SWAP P50 1 P70 1 P90 1 MIN 16384 MAX 0
+2023-10-09T16:07:53.876Z In(05) vmx MemSched: LOCK HIST [0, 16384]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: LOCK P50 1 P70 1 P90 1 MIN 16384 MAX 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: LOCK_TARGET HIST [0, 16384]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: LOCK_TARGET P50 1 P70 1 P90 1 MIN 16384 MAX 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: ACTIVE_PCT HIST [0, 100]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: ACTIVE_PCT P50 1 P70 1 P90 1 MIN 100 MAX 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: NUM_VMS HIST [0, 10]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: NUM_VMS P50 1 P70 1 P90 1 MIN 10 MAX 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: HOSTLOCK HIST [0, 14640384]: 0 0 0 0 0 0 0 0 0 0 0 0
+2023-10-09T16:07:53.877Z In(05) vmx MemSched: HOSTLOCK P50 1 P70 1 P90 1 MIN 14640384 MAX 0
+2023-10-09T16:07:53.877Z In(05) vmx TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2023-10-09T16:07:53.878Z In(05) vmx TOOLS received request in VMX to set option 'copypaste' -> '0'
+2023-10-09T16:07:53.887Z In(05) vmx HgfsServerManagerVigorExit: Destroy:
+2023-10-09T16:07:53.887Z In(05) vmx ToolsISO: Refreshing imageName for 'win2000pro' (refreshCount=1, lastCount=1).
+2023-10-09T16:07:53.887Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-09T16:07:53.887Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-09T16:07:53.887Z In(05) vmx ToolsISO: Updated cached value for imageName to 'winPreVista.iso'.
+2023-10-09T16:07:53.887Z In(05) vmx ToolsISO: Selected Tools ISO 'winPreVista.iso' for 'win2000pro' guest.
+2023-10-09T16:07:53.887Z In(05) vmx TOOLS updated cached value for isoImageExists to 1.
+2023-10-09T16:07:53.888Z In(05) vmx Tools: ToolsRunningStatus_Exit, delayedRequest is 0x1DD19058A00
+2023-10-09T16:07:53.891Z In(05) vmx SOUNDLIB: Closing Wave sound backend.
+2023-10-09T16:07:53.998Z In(05) mks MKSControlMgr: disconnected
+2023-10-09T16:07:54.051Z In(05) mks MKS-RenderMain: Stopped ISBRenderer (DX12Renderer)
+2023-10-09T16:07:54.053Z In(05) mks MKS PowerOff
+2023-10-09T16:07:54.053Z In(05) svga SVGA thread is exiting
+2023-10-09T16:07:54.053Z In(05) mks MKS thread is exiting
+2023-10-09T16:07:54.053Z Wa(03) vmx 
+2023-10-09T16:07:54.055Z In(05) vmx AIOWIN32C: asyncOps=4 syncOps=7 bufSize=0Kb fixedOps=0
+2023-10-09T16:07:54.055Z In(05) aioCompletion AIO thread processed 4 completions
+2023-10-09T16:07:54.056Z In(05) deviceThread Device thread is exiting
+2023-10-09T16:07:54.056Z In(05) vmx Vix: [mainDispatch.c:1171]: VMAutomationPowerOff: Powering off.
+2023-10-09T16:07:54.057Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\CTF\Flareon10\mbransom\vmware\mbransom.vmpl", ...) failed, error: 2
+2023-10-09T16:07:54.057Z In(05) vmx Policy_SavePolicyFile: invalid arguments to function.
+2023-10-09T16:07:54.057Z In(05) vmx PolicyVMX_Exit: Could not write out policies: 15.
+2023-10-09T16:07:54.057Z In(05) vmx WORKER: asyncOps=1 maxActiveOps=1 maxPending=1 maxCompleted=0
+2023-10-09T16:07:54.057Z In(05) PowerNotifyThread PowerNotify thread exiting.
+2023-10-09T16:07:54.060Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1875, success=1 additionalError=0
+2023-10-09T16:07:54.060Z In(05) vmx Vix: [mainDispatch.c:4231]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2023-10-09T16:07:54.062Z In(05) vmx VMXSTATS: Ready to cleanup and munmap 1DD17D10000.
+2023-10-09T16:07:54.062Z No(00) vmx ConfigDB: Setting cleanShutdown = "TRUE"
+2023-10-09T16:07:54.073Z In(05) vmx Vix: [mainDispatch.c:4213]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2023-10-09T16:07:54.073Z In(05) vmx Vix: [mainDispatch.c:4231]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2023-10-09T16:07:54.073Z In(05) vmx Transitioned vmx/execState/val to suspended
+2023-10-09T16:07:54.074Z In(05) vmx VMX idle exit
+2023-10-09T16:07:54.074Z In(05) vmx WQPoolFreePoll : pollIx = 3, signalHandle = 960
+2023-10-09T16:07:54.074Z In(05) vmx Vix: [mainDispatch.c:817]: VMAutomation_LateShutdown()
+2023-10-09T16:07:54.074Z In(05) vmx Vix: [mainDispatch.c:772]: VMAutomationCloseListenerSocket. Closing listener socket.
+2023-10-09T16:07:54.074Z In(05) vmx Flushing VMX VMDB connections
+2023-10-09T16:07:54.075Z In(05) vmx VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2023-10-09T16:07:54.075Z In(05) vmx VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2023-10-09T16:07:54.075Z In(05) vmx VigorTransport_ServerDestroy: server destroyed.
+2023-10-09T16:07:54.075Z In(05) vmx WQPoolFreePoll : pollIx = 2, signalHandle = 2524
+2023-10-09T16:07:54.075Z In(05) vmx WQPoolFreePoll : pollIx = 1, signalHandle = 864
+2023-10-09T16:07:54.079Z In(05) vmx VMX exit (0).
+2023-10-09T16:07:54.079Z In(05) vmx OBJLIB-LIB: ObjLib cleanup done.
+2023-10-09T16:07:54.079Z In(05) vmx AIOMGR-S : stat o=9 r=21 w=57 i=0 br=129167 bw=1109970
