@@ -1,0 +1,3 @@
+IADD:00000000:/FlareSay.exe
+IDSET:/FlareSay.exe:c0a8796cfcc921692079711400
+IDEL:/FlareSay.exe

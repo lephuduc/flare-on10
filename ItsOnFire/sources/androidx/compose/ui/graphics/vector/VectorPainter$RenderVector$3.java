@@ -1,0 +1,43 @@
+package androidx.compose.ui.graphics.vector;
+
+import androidx.appcompat.R;
+import androidx.compose.runtime.Composer;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.functions.Function4;
+import kotlin.jvm.internal.Lambda;
+import org.jetbrains.annotations.Nullable;
+
+@Metadata(k = 3, mv = {1, 6, 0}, xi = R.styleable.AppCompatTheme_checkboxStyle)
+/* loaded from: classes.dex */
+public final class VectorPainter$RenderVector$3 extends Lambda implements Function2<Composer, Integer, Unit> {
+    public final /* synthetic */ int $$changed;
+    public final /* synthetic */ Function4<Float, Float, Composer, Integer, Unit> $content;
+    public final /* synthetic */ String $name;
+    public final /* synthetic */ VectorPainter $tmp0_rcvr;
+    public final /* synthetic */ float $viewportHeight;
+    public final /* synthetic */ float $viewportWidth;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Multi-variable type inference failed */
+    public VectorPainter$RenderVector$3(VectorPainter vectorPainter, String str, float f2, float f3, Function4<? super Float, ? super Float, ? super Composer, ? super Integer, Unit> function4, int i2) {
+        super(2);
+        this.$tmp0_rcvr = vectorPainter;
+        this.$name = str;
+        this.$viewportWidth = f2;
+        this.$viewportHeight = f3;
+        this.$content = function4;
+        this.$$changed = i2;
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Unit invoke(Composer composer, Integer num) {
+        invoke(composer, num.intValue());
+        return Unit.INSTANCE;
+    }
+
+    public final void invoke(@Nullable Composer composer, int i2) {
+        this.$tmp0_rcvr.RenderVector$ui_release(this.$name, this.$viewportWidth, this.$viewportHeight, this.$content, composer, this.$$changed | 1);
+    }
+}
